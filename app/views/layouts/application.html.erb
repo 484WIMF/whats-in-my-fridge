@@ -8,7 +8,10 @@
 </head>
 <body>
 
-  <%= link_to 'login', 'sessions/login'%>
+  <!--%= @Html.Partial("../sessions_controller/login") % -->
+  <%= render :partial => "sessions/login" %>
+  <!--render :partial=>'sessions/login'-->
+  <!--%= link_to 'login', 'sessions/login'%-->
 <%= yield %>
 
 </body>
