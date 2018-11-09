@@ -4,7 +4,7 @@ class SessionsController < ApplicationController
         auth=request.env["omniauth.auth"]
         user=Usergoer.where(:provider => auth["provider"], :uid => auth["uid"]) ||
             Usergoer.create_with_omniauth(auth)
-        session[:user_id] = user.id
+        session[:user_id] = user.ids
         redirect_to fridges_path
     end
     
