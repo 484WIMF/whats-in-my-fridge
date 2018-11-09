@@ -18,3 +18,12 @@
   = select :fridge, :where, ['Africa','Asia','Austrailia/Oceania','Europe','North America', 'South America']
   
   = submit_tag 'Save Changes'
+
+
+%h2 Create New Fridge
+
+= form_tag '/fridges', :method => :post do
+
+  = render :partial => 'fridge_form'
+  
+  = submit_tag 'Save Changes'

@@ -14,13 +14,21 @@ class FridgesController < ApplicationController
     end
     
     def new
-        
+        @fridge = Fridge.new
     end
     
     def create
-        @fridge = Fridge.create!(fridge_params)
-        flash[:notice] = "#{@fridge.menu} created!:D"
-        redirect_to fridges_path
+        @fridge = Fridge.new(params[:movie])
+        if @fridge.save
+            flash[:notice] = "#{@fridge.menu} was created."
+            redirect_to fridges_path
+        else
+            render 'new'
+        end
+        
+        #@fridge = Fridge.create!(fridge_params)
+        #flash[:notice] = "#{@fridge.menu} created!:D"
+        #redirect_to fridges_path
     end
     
     def edit
@@ -29,9 +37,17 @@ class FridgesController < ApplicationController
     
     def update
         @fridge = Fridge.find params[:id]
-        @fridge.update_attributes!(fridge_params)
-        flash[:notice] = "#{@fridge.menu} updated! XD"
-        redirect_to fridge_path(@fridge)
+        if @fridge.update_attributes(params[:fridge])
+            flash[:notice] = "#{@fridge.menu} was updated"
+            redirect_to fridge_path(@fridge)
+        else
+            render 'edit'
+        end
+        
+        #@fridge = Fridge.find params[:id]
+        #@fridge.update_attributes!(fridge_params)
+        #flash[:notice] = "#{@fridge.menu} updated! XD"
+        #redirect_to fridge_path(@fridge)
     end
     
     def destroy

@@ -19,4 +19,11 @@
   = label :fridge, :where, 'Continent'
   = select :fridge, :where, ['Africa','Asia','Austrailia/Oceania','Europe','North America', 'South America']
 
-  = submit_tag 'Update Recipe'
+  = submit_tag 'Update Menu'
+  
+%h2 Edit Existing Fridge
+
+= form_tag fridge_path(@fridge), :method => :put do
+
+  = render :partial => 'fridge_form'
+  = submit_tag 'Update Menu Info'
