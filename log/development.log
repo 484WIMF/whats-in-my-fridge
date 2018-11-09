@@ -7033,3 +7033,1946 @@ Processing by FridgesController#index as HTML
   [1m[35mFridge Load (0.5ms)[0m  SELECT "fridges".* FROM "fridges"
   Rendered fridges/index.html.haml within layouts/application (1.5ms)
 Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 12:57:37 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 279ms (Views: 265.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 71.87.113.148 at 2018-11-09 12:57:37 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/fridge.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 71.87.113.148 at 2018-11-09 12:57:37 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/fridge.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 71.87.113.148 at 2018-11-09 12:57:37 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 71.87.113.148 at 2018-11-09 12:57:37 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter" for 71.87.113.148 at 2018-11-09 12:57:39 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+OAuth::Unauthorized (403 Forbidden):
+  oauth (0.5.4) lib/oauth/consumer.rb:236:in `token_request'
+  oauth (0.5.4) lib/oauth/consumer.rb:155:in `get_request_token'
+  omniauth-oauth (1.1.0) lib/omniauth/strategies/oauth.rb:28:in `request_phase'
+  omniauth-twitter (1.4.0) lib/omniauth/strategies/twitter.rb:61:in `request_phase'
+  omniauth (1.8.1) lib/omniauth/strategy.rb:224:in `request_call'
+  omniauth (1.8.1) lib/omniauth/strategy.rb:187:in `call!'
+  omniauth (1.8.1) lib/omniauth/strategy.rb:168:in `call'
+  omniauth (1.8.1) lib/omniauth/builder.rb:63:in `call'
+  rack (1.6.10) lib/rack/etag.rb:24:in `call'
+  rack (1.6.10) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.10) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.10) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.10) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.10) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.10) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.10) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (39.6ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 12:58:35 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 271ms (Views: 256.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter" for 71.87.113.148 at 2018-11-09 12:58:37 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter" for 71.87.113.148 at 2018-11-09 12:58:38 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter/callback?oauth_token=CXNP1gAAAAAA4Y-MAAABZviNjSE&oauth_verifier=09ZrsGBWRcihkyQvTmUDmfXQEtuZsMpj" for 71.87.113.148 at 2018-11-09 12:58:38 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"CXNP1gAAAAAA4Y-MAAABZviNjSE", "oauth_verifier"=>"09ZrsGBWRcihkyQvTmUDmfXQEtuZsMpj", "provider"=>"twitter"}
+  [1m[35m (0.2ms)[0m  SELECT "usergoers"."id" FROM "usergoers" WHERE "usergoers"."provider" = ? AND "usergoers"."uid" = ?  [["provider", "twitter"], ["uid", "960973551070273536"]]
+Redirected to https://whatsinmyfridge-sunkyong9768.c9users.io/fridges
+Completed 302 Found in 4ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-11-09 12:58:39 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  [1m[36mFridge Load (0.4ms)[0m  [1mSELECT "fridges".* FROM "fridges"[0m
+  Rendered fridges/index.html.haml within layouts/application (6.4ms)
+Completed 200 OK in 64ms (Views: 36.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-11-09 14:01:16 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  [1m[35mFridge Load (0.8ms)[0m  SELECT "fridges".* FROM "fridges"
+  Rendered fridges/index.html.haml within layouts/application (2.9ms)
+Completed 200 OK in 205ms (Views: 200.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.self-7788bf7b637ea6ed4ef7b997874fa3ee65f894c15ad2e78cf51a504d78cd6191.css?body=1" for 71.87.113.148 at 2018-11-09 14:01:16 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:01:34 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 424ms (Views: 411.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/whats-in-my-fridge/app/assets/images/Front-backgroud.jpg" for 71.87.113.148 at 2018-11-09 14:01:35 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/whats-in-my-fridge/app/assets/images/Front-backgroud.jpg"):
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (21.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (71.9ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:02:06 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 22ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7dbb2f80d433c51a6f148db09d6566db2a6ae0c506418fb396d5c21ecd7f11dc.css?body=1" for 71.87.113.148 at 2018-11-09 14:02:06 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/whats-in-my-fridge/app/assets/images/Front-backgroud.jpg" for 71.87.113.148 at 2018-11-09 14:02:06 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/whats-in-my-fridge/app/assets/images/Front-backgroud.jpg"):
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.9ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:02:34 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 29ms (Views: 27.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4de7ab2dadd89cd9ffabbeb0c34438f27c05cbe65b98c899603e505fb9c22bd9.css?body=1" for 71.87.113.148 at 2018-11-09 14:02:34 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/whats-in-my-fridge/app/assets/images/Front-backgroud.jpg" for 71.87.113.148 at 2018-11-09 14:02:35 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/whats-in-my-fridge/app/assets/images/Front-backgroud.jpg"):
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.7ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:04:47 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/whats-in-my-fridge/app/assets/images/Front-backgroud.jpg" for 71.87.113.148 at 2018-11-09 14:04:48 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/whats-in-my-fridge/app/assets/images/Front-backgroud.jpg"):
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.8ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:06:13 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 25ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-15502164a1332b0dd32f3b6a0462d7819b2b062bedb7693e4c5decef37e401e8.css?body=1" for 71.87.113.148 at 2018-11-09 14:06:13 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Front-backgroud.jpg" for 71.87.113.148 at 2018-11-09 14:06:13 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:08:04 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 24ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9c9ea31f52729d22837fc3f7a790c54106c882cb9d63d101db5e6a87bd533e22.css?body=1" for 71.87.113.148 at 2018-11-09 14:08:05 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Front-backgroud.jpg" for 71.87.113.148 at 2018-11-09 14:08:05 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:08:13 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Front-backgroud.jpg" for 71.87.113.148 at 2018-11-09 14:08:14 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:08:26 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 38ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ce6e0425c5af6cbc2e604adb4b71baeec66b800f8e2699a4a46c865bbdfbf8f7.css?body=1" for 71.87.113.148 at 2018-11-09 14:08:26 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Front-backgroud.jpg" for 71.87.113.148 at 2018-11-09 14:08:26 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:11:00 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 124ms (Views: 122.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Front-backgroud.jpg" for 71.87.113.148 at 2018-11-09 14:11:00 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/assets/Front-backgroud.jpg"):
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (128.9ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:11:22 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 38ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7d19edc115faa874ce6104caa98469c6d1f9aba6aa31d34f66e618f78b3f0219.css?body=1" for 71.87.113.148 at 2018-11-09 14:11:22 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:11:22 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:12:20 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ecfe252172b77f02daa29704e43c784717ad199cee356ef071846556369fc6b6.css?body=1" for 71.87.113.148 at 2018-11-09 14:12:20 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:12:20 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:12:32 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 29ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-add05b6a786c5e019389de756cae5f0e2480bfadbf1c6192b29801a8177ccb49.css?body=1" for 71.87.113.148 at 2018-11-09 14:12:32 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:12:32 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:12:49 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 25ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d3e241458d4a99adc6788c86cd58df6b3b562c1494e08ea769bc5eb552048e50.css?body=1" for 71.87.113.148 at 2018-11-09 14:12:50 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:12:50 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:13:55 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:13:56 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:15:06 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 26ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:15:06 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:16:03 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3b446af844861c1848b451211efad0ad4ad6530278726ab6f7f8cb2d7763b8e3.css?body=1" for 71.87.113.148 at 2018-11-09 14:16:03 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:16:03 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:16:46 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f8dfb9845966d6aa9e92cbe4711d36092dc36f473055b8e5a54ec71b0b409508.css?body=1" for 71.87.113.148 at 2018-11-09 14:16:47 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:16:47 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:17:09 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 54ms (Views: 53.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-63d5f299c9de8a0c6df585cf90428a73e72e4e291d2f93342d2a821ae191257d.css?body=1" for 71.87.113.148 at 2018-11-09 14:17:09 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:17:09 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:17:16 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 36ms (Views: 34.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:17:16 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:18:23 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 52ms (Views: 51.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:18:23 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:18:45 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-61138a05431098d83d78dae669144b9b483ec4fa4027d1be9dec738064de1ec4.css?body=1" for 71.87.113.148 at 2018-11-09 14:18:46 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:18:46 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:18:52 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 62ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7fa4c9029f7c746fe21b9f318dc2c039b31a565515d7995c97115fceffcd437e.css?body=1" for 71.87.113.148 at 2018-11-09 14:18:52 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:18:52 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:19:00 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 53ms (Views: 52.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8828dfb141601c6ffed35b739a164b38327479d062b8a43bbe7ea5d1b2d25df6.css?body=1" for 71.87.113.148 at 2018-11-09 14:19:00 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:19:00 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:19:07 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 55ms (Views: 54.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:19:07 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:19:55 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 43ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-bdf841fcf3b6fb16fa85e46bc68484add34747a03411abb5ececfd4b3dd498a2.css?body=1" for 71.87.113.148 at 2018-11-09 14:19:55 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:19:56 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:20:27 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 20ms (Views: 19.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:20:28 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:20:34 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 19ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:20:34 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:20:44 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:20:44 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:20:53 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:20:53 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:22:05 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c2025b6f160950d408fa9949a0fe85bbad086a4013234b201c0ad9551bfea48f.css?body=1" for 71.87.113.148 at 2018-11-09 14:22:05 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:22:05 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:25:15 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 27ms (Views: 25.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-2dd36c9e67b1d13431fb22984b357fe8bb61262579ca0858266f8209ab93e3fa.css?body=1" for 71.87.113.148 at 2018-11-09 14:25:15 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:25:15 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:25:35 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 33ms (Views: 32.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-36707ee1137ac9742564a9667c37604af8a19c3c071c6bd3aad6153ca68d8cf8.css?body=1" for 71.87.113.148 at 2018-11-09 14:25:36 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:25:36 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:27:39 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 27ms (Views: 26.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-57edec3e733957a891c9e1a8ba5e083de4dd25672127fbe03ae22c854ed9c6e7.css?body=1" for 71.87.113.148 at 2018-11-09 14:27:39 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:27:44 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 26ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:28:19 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7e9690e501eaba1d9479ddc14dfa4ce5ffc00bec6d86b49f650a2955fd7abded.css?body=1" for 71.87.113.148 at 2018-11-09 14:28:19 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:28:49 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 26ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ae8f31b2a0da3d81742ce3207348705229cf56091c4f41b5ab8216f6a3f6b944.css?body=1" for 71.87.113.148 at 2018-11-09 14:28:50 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:29:19 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 24ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:30:08 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-bd67b8740fe82e4c8cbf66a16018cebc482c9b5ff043c11d9b049569728b340f.css?body=1" for 71.87.113.148 at 2018-11-09 14:30:08 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:30:09 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:30:37 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c2d8f3a2464d83c87036e565263e6312d2132720e4a425a61c3dd5563c84a0cb.css?body=1" for 71.87.113.148 at 2018-11-09 14:30:37 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:30:37 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:30:39 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:30:39 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:30:39 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 31ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:30:39 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:30:47 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 33ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9c2b443ff6df48b37a04bd25371abb9defcf0c10816439a3479538596299ae4f.css?body=1" for 71.87.113.148 at 2018-11-09 14:30:47 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:30:47 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:31:07 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 30ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-6d1bb6885230dae7bf106091063acf051942ca44903f5706390c417493bb6ca5.css?body=1" for 71.87.113.148 at 2018-11-09 14:31:07 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:31:07 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:31:21 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 24ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ada11316623a2f40bb9b26763fb4edef65ac47a1527a622100a6f5f7d224eb12.css?body=1" for 71.87.113.148 at 2018-11-09 14:31:22 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:31:22 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:31:43 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ef858ca9c9050faa7d4301c7d95febc9ebcab60633f6a513e2575f9df2c81dc9.css?body=1" for 71.87.113.148 at 2018-11-09 14:31:43 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:31:44 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:31:55 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-5771811fc0ea65d8c99b2151ec89d5a2cf5ffd118db268304a22f49b5a6f64a1.css?body=1" for 71.87.113.148 at 2018-11-09 14:31:55 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:31:55 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:32:01 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7efdfc225d44a1e0b3e87077112ce78edac29c7f39239aa0d5058e4d01676c1a.css?body=1" for 71.87.113.148 at 2018-11-09 14:32:01 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:32:01 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:32:34 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-dfe0f9d44ce952e8713547d95d821345ab4fa088e181d1dddad4a2694801b291.css?body=1" for 71.87.113.148 at 2018-11-09 14:32:34 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:32:35 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:32:43 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 26ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c78979551562244e833025813a059299b4db964a3403e2d27cab904e38f2dba0.css?body=1" for 71.87.113.148 at 2018-11-09 14:32:43 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:32:43 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:32:55 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 26ms (Views: 25.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a97dac747c6a2633ac331566da45dc222ae3ce4e7746100ce139208e7c9c5b42.css?body=1" for 71.87.113.148 at 2018-11-09 14:32:55 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:32:55 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:33:07 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 24ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-11c1dcf6735f7289a556607a6886f4790e32ae591819b4859b8863d589f964b3.css?body=1" for 71.87.113.148 at 2018-11-09 14:33:07 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:33:07 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:33:23 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 24ms (Views: 23.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8810cc92ef0899ceb35c05f07d935d88034b5e013999edd8c604d999a2f9e4f4.css?body=1" for 71.87.113.148 at 2018-11-09 14:33:23 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:33:23 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:34:39 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 25ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d4ba220fc3b58428be05380ca8bc3452e64328215f77dfa619db232ecf6a1404.css?body=1" for 71.87.113.148 at 2018-11-09 14:34:40 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:34:40 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:34:57 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 25ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-192d3c5d7ac94a77eda491c51809b1a1dd8e75005e0290f13c0c80225b9d3238.css?body=1" for 71.87.113.148 at 2018-11-09 14:34:57 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:34:57 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:34:58 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:34:58 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:34:58 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:34:58 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:35:05 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 25ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-879c0ad277f460876fa2001ade6cbfa250c44ecf6558d98b1e9f9ff86b2e0dad.css?body=1" for 71.87.113.148 at 2018-11-09 14:35:05 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:35:06 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:35:14 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 24ms (Views: 23.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ecf36e04fbf2c71ae0500dba5ca98b6d98222797c8babed3ae6c7ef51d5dd2ae.css?body=1" for 71.87.113.148 at 2018-11-09 14:35:14 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:35:14 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:35:47 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-724f5e75d9261b84eddfbfe63db75d1bd14265e582579de68402b1e46ccb751a.css?body=1" for 71.87.113.148 at 2018-11-09 14:35:47 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:35:47 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:36:23 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 29ms (Views: 28.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fac89a9055fb780f75e9765f15ade5fcf91a897be242fdd7366d0451cbb5ec8d.css?body=1" for 71.87.113.148 at 2018-11-09 14:36:23 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:36:23 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:36:42 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 145ms (Views: 144.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3cba6acda43cf16b2eaa611248b04a9080a2c7a032988e70652f1eb3ee723f2e.css?body=1" for 71.87.113.148 at 2018-11-09 14:36:42 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:36:42 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:38:04 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 27ms (Views: 25.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-14fff1578b478e69cd4a3c0f3e4182bada70ee4b621a629452ba3f51dfbdf655.css?body=1" for 71.87.113.148 at 2018-11-09 14:38:04 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:38:04 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:38:13 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 31ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b997f08f55f74682c2aea635ddc335055baebb442215130bae0bb317ec6f2410.css?body=1" for 71.87.113.148 at 2018-11-09 14:38:13 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:38:13 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:38:58 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 28ms (Views: 27.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:38:58 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:44:44 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 41ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b90fce70c6940b0aac69870cacd8949b248300f0e1ae364606d1083faeb539f3.css?body=1" for 71.87.113.148 at 2018-11-09 14:44:45 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:44:57 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 22ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:44:58 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 24ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:48:04 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 26ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/Frontbackground.jpg" for 71.87.113.148 at 2018-11-09 14:48:05 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/Frontbackground.jpg"):
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (45.0ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:48:20 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 34ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/whats-in-my-fridge/app/assets/images/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:48:21 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/whats-in-my-fridge/app/assets/images/Frontbackgroud.jpg"):
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (45.1ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:50:13 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:50:46 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 33ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d5114cf136f4e090bb7f5d36bbebe59f050f602302d3e6c7154975bba2b9e55f.css?body=1" for 71.87.113.148 at 2018-11-09 14:50:46 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:50:47 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:51:48 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:51:48 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/Frontbackgroud.jpg"):
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (41.4ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:52:04 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 21ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:52:05 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:52:28 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-291cc7450294537174788c005df6c0c89ccc4cdb499f58cf4ca9b363912c5f6f.css?body=1" for 71.87.113.148 at 2018-11-09 14:52:28 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:52:28 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:54:42 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 28ms (Views: 27.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-01653f2237ad30de2bc0ee161746db6fd4d2e4963e5fa531230a82c2ef72d5f4.css?body=1" for 71.87.113.148 at 2018-11-09 14:54:42 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:54:42 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 14:55:49 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 33ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 14:55:50 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:00:41 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 26ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f3deb7aeb33374dcffa6492838c7199cc34b8ac281a90046e2e4fb869d0906a9.css?body=1" for 71.87.113.148 at 2018-11-09 15:00:41 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 15:00:41 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:02:12 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 25ms (Views: 24.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d365123584011f320bad33490ad1eba522d60c3e0000b554e545347aa83cac27.css?body=1" for 71.87.113.148 at 2018-11-09 15:02:12 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 15:02:12 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:02:53 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 24ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e0a3263ba75237987111ec43ecfc6e5e4ddf30fb095085d483ffda046af77b95.css?body=1" for 71.87.113.148 at 2018-11-09 15:02:53 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 15:02:53 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:08:11 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 25ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a001ea554263174f6093ebe885319f5a3fe004efd3fdfb40ad33e56a2a0b0e4c.css?body=1" for 71.87.113.148 at 2018-11-09 15:08:11 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 15:08:11 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:08:45 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 25ms (Views: 24.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7bfa7f09842162df8482c1d4a6f79c7ff33133d7ac836161c281e2605873b1f3.css?body=1" for 71.87.113.148 at 2018-11-09 15:08:45 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:08:56 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 26ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 15:08:57 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:09:27 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 26ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-cd5bc6eb38500aab296d3a6f1f07bdfeb2f5a9aff688d2e39303664cd62502b0.css?body=1" for 71.87.113.148 at 2018-11-09 15:09:27 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 15:09:27 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:10:15 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 25ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b75fd2541446a202df210a51d65e266ea8dc8aec9c07845d0e33fa6d9e754929.css?body=1" for 71.87.113.148 at 2018-11-09 15:10:16 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 15:10:16 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:11:20 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 49ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fridge.self-dc2d3ccf88a68e9596f1f637e29cb90ad8a7aa9e4da3881db2f88d82d2ec2ff6.css?body=1" for 71.87.113.148 at 2018-11-09 15:11:20 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-bf76aa429ff1d0ca05c43922d8e0196229f045cdff5429848a44010bd5000ae7.css?body=1" for 71.87.113.148 at 2018-11-09 15:11:20 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 15:11:21 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:11:55 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 27ms (Views: 26.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 15:11:56 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:15:02 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 41ms (Views: 39.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 15:15:03 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:15:21 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 15:15:22 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:18:16 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 50ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fridge.self-41d86f948b46fcd2570456dff5d89449ba851cccd4e9d7093983bc06070b90af.css?body=1" for 71.87.113.148 at 2018-11-09 15:18:16 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 15:18:16 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:18:57 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "    color = white": expected "{", was ";"):
+    2: %html
+    3:   %head
+    4:     %title Workspace
+    5:     = stylesheet_link_tag 'application', 'media' => 'all', 'data-turbolinks-track' => true
+    6:     = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    7:     = csrf_meta_tags
+    8:     
+  app/assets/stylesheets/fridge.scss:22
+  app/views/layouts/application.html.haml:5:in `_app_views_layouts_application_html_haml__1109211646311200478_70158504570200'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (50.1ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:19:19 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "...color = #ffffff": expected "{", was ";"):
+    2: %html
+    3:   %head
+    4:     %title Workspace
+    5:     = stylesheet_link_tag 'application', 'media' => 'all', 'data-turbolinks-track' => true
+    6:     = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    7:     = csrf_meta_tags
+    8:     
+  app/assets/stylesheets/fridge.scss:22
+  app/views/layouts/application.html.haml:5:in `_app_views_layouts_application_html_haml__1109211646311200478_70158504570200'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (42.0ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:20:51 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "...color = #ffffff": expected "{", was ";"):
+    2: %html
+    3:   %head
+    4:     %title Workspace
+    5:     = stylesheet_link_tag 'application', 'media' => 'all', 'data-turbolinks-track' => true
+    6:     = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    7:     = csrf_meta_tags
+    8:     
+  app/assets/stylesheets/fridge.scss:22
+  app/views/layouts/application.html.haml:5:in `_app_views_layouts_application_html_haml__1109211646311200478_70158504570200'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (14.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (52.6ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:20:55 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 37ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fridge.self-7e68a2a98f251e08c53214de5f06449b78991b6cbd7c624c1b0c45d0b2d31a50.css?body=1" for 71.87.113.148 at 2018-11-09 15:20:55 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 15:20:55 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:21:21 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 34ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fridge.self-2e886bce2bd992ceb1aff1f609cb58feaa0cf11ae1d03953db55868906872ddb.css?body=1" for 71.87.113.148 at 2018-11-09 15:21:21 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 15:21:21 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:21:51 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 49ms (Views: 48.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fridge.self-22c46db7dadd0bf523139989410684608e5a74de434e945445de069eced7aa6f.css?body=1" for 71.87.113.148 at 2018-11-09 15:21:51 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 15:21:51 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:25:30 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 36ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fridge.self-e7d3dc5733176d92e5703608692673c4865f6d6461c944c82dbb624e14f0e95d.css?body=1" for 71.87.113.148 at 2018-11-09 15:25:31 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 15:25:31 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:25:48 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 37ms (Views: 36.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fridge.self-b6be10edb27e56c34fde8c272612cdaf26e9e29b251e662f44edc80a1738cd78.css?body=1" for 71.87.113.148 at 2018-11-09 15:25:48 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 15:25:49 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:25:50 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 15:25:51 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:26:45 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "...lay: blockcolor": expected ";", was ": black;"):
+    2: %html
+    3:   %head
+    4:     %title Workspace
+    5:     = stylesheet_link_tag 'application', 'media' => 'all', 'data-turbolinks-track' => true
+    6:     = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    7:     = csrf_meta_tags
+    8:     
+  app/assets/stylesheets/fridge.scss:32
+  app/views/layouts/application.html.haml:5:in `_app_views_layouts_application_html_haml__1109211646311200478_70158504570200'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (41.4ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:26:54 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 39ms (Views: 38.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fridge.self-eb5bbc26bcf065e0bf9ab82b22ab27f3c912453a18dffe5e6493d541632c933c.css?body=1" for 71.87.113.148 at 2018-11-09 15:26:55 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 15:26:55 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:31:15 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 53ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fridge.self-bdbca50b14f49c99b1cbd933a87c8819ef1e931ecede075f330ac08dd4883a96.css?body=1" for 71.87.113.148 at 2018-11-09 15:31:16 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 15:31:16 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:31:56 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 38ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fridge.self-c5b2bb9d6154fa4489648c946ebff1951e961b0c142247b231b51dd41e981e6e.css?body=1" for 71.87.113.148 at 2018-11-09 15:31:57 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 15:31:57 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:32:02 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 40ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fridge.self-f2375396ce18c2f95d8b747be0044f420e415177db2454eddb8318666cc20dcd.css?body=1" for 71.87.113.148 at 2018-11-09 15:32:02 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 15:32:03 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:32:54 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 15:32:54 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:35:00 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 38ms (Views: 36.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fridge.self-668bf3b60ffc626cdd651d4e2f52b8847d18b356d44f441b44aafd506aec7990.css?body=1" for 71.87.113.148 at 2018-11-09 15:35:01 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 15:35:01 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:35:16 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 41ms (Views: 40.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fridge.self-2c076341b80c49e53d68c36d3f3c6f8fb4731f34b6ebf1599899a36798e4a35c.css?body=1" for 71.87.113.148 at 2018-11-09 15:35:16 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 15:35:16 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:35:29 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 37ms (Views: 36.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fridge.self-1842b2a2fb47843d8f19d28ea786ee424f7010349463307523eb3b36a2e3607b.css?body=1" for 71.87.113.148 at 2018-11-09 15:35:29 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 15:35:30 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:35:54 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 44ms (Views: 43.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fridge.self-e49cbd67bc371d48704c9c2d21383657ef57b9654b69a24fe744a36fc6ca5401.css?body=1" for 71.87.113.148 at 2018-11-09 15:35:55 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 15:35:55 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:36:04 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 56ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fridge.self-7bdc607ffaa6e7c6ea2254297b052b54a60f5424b8b8d69ec5ae3be4511405f7.css?body=1" for 71.87.113.148 at 2018-11-09 15:36:04 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 15:36:04 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:36:20 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 36ms (Views: 35.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fridge.self-12ece6e524d2a14e9b1aff2781e9c53644c4c30411c19b6f55c4d33251f1f2f4.css?body=1" for 71.87.113.148 at 2018-11-09 15:36:20 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 15:36:20 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 15:36:44 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 39ms (Views: 38.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fridge.self-d66547b7a48c62c36559003da83a8ded9b2c989e127d60c8ee2ff24941e05a7f.css?body=1" for 71.87.113.148 at 2018-11-09 15:36:44 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 15:36:44 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
