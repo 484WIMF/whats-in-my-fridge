@@ -1,5 +1,8 @@
 class FridgesController < ApplicationController
     
+    def home
+    end
+    
     def fridge_params
         params.require(:fridge).permit(:menu, :ingredient, :recipe, :rating, :where)
     end

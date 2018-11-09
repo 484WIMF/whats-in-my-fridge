@@ -1,12 +1,12 @@
 Rails.application.routes.draw do
-  root 'fridges#index'
+  root 'fridges#home'
   resources :fridges
   
   #resources :fridge
   #root :to => redirect('/fridge')
   
   
-  #get '/' => 'home#index'
+  #get '/misc' => 'misc#home'
   #get '/welcome' => 'home#welcome'
   #get '/signup' => 'home#signup'
   #get '/profile' => 'home#profile'
@@ -18,7 +18,7 @@ Rails.application.routes.draw do
   get 'auth/twitter', :as => 'login'
 
 
-  get 'sessions/login' => 'sessions#login'
+  get '/login' => 'sessions#login'
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
