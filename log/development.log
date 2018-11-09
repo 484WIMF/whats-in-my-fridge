@@ -2585,3 +2585,55 @@ ActionView::Template::Error (Missing partial sessions/_login with {:locale=>[:en
   Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
   Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
   Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (38.0ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-09 01:44:07 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 351ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Missing partial sessions/_login with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :haml, :jbuilder]}. Searched in:
+  * "/home/ubuntu/workspace/whats-in-my-fridge/app/views"
+):
+     9: <body>
+    10: 
+    11:   <!--%= @Html.Partial("../sessions_controller/login") % -->
+    12:   <%= render :partial => "sessions/login" %>
+    13:   <!--render :partial=>'sessions/login'-->
+    14:   <!--%= link_to 'login', 'sessions/login'%-->
+    15: <%= yield %>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___2509766531908451930_70238321973800'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (42.9ms)
+
+
+Started GET "/" for 10.240.0.231 at 2018-11-09 02:03:14 +0000
+Cannot render console from 10.240.0.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 329ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Missing partial sessions/_login with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :haml, :jbuilder]}. Searched in:
+  * "/home/ubuntu/workspace/whats-in-my-fridge/app/views"
+):
+     9: <body>
+    10: 
+    11:   <!--%= @Html.Partial("../sessions_controller/login") % -->
+    12:   <%= render :partial => "sessions/login" %>
+    13:   <!--render :partial=>'sessions/login'-->
+    14:   <!--%= link_to 'login', 'sessions/login'%-->
+    15: <%= yield %>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__1003897739415799225_29387520'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (24.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (12.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (69.0ms)

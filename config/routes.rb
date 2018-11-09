@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   get 'auth/twitter', :as => 'login'
 
 
-  get 'sessions/login' => 'sessions#login11'
+  get 'sessions/login' => 'sessions#login'
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
