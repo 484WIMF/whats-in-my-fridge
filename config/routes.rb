@@ -10,6 +10,8 @@ Rails.application.routes.draw do
   post 'logout' => 'sessions#destroy'
   get 'auth/failure' => 'sessions#failure'
   get 'auth/twitter', :as => 'login'
+
+
   get 'sessions/login' => 'sessions#login'
   
   # The priority is based upon order of creation: first created -> highest priority.
