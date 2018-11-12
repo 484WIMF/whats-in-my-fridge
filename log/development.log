@@ -9162,6 +9162,7 @@ Started GET "/assets/Frontbackgroud.jpg" for 134.29.89.254 at 2018-11-09 19:16:4
 Cannot render console from 134.29.89.254! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
+<<<<<<< HEAD
 Started GET "/" for 134.29.90.92 at 2018-11-09 20:20:49 +0000
 Cannot render console from 134.29.90.92! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
@@ -9424,6 +9425,34 @@ Cannot render console from 134.29.90.92! Allowed networks: 127.0.0.1, ::1, 127.0
 
 Started GET "/auth/twitter" for 134.29.90.92 at 2018-11-09 20:24:12 +0000
 Cannot render console from 134.29.90.92! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+=======
+Started GET "/" for 134.29.89.254 at 2018-11-09 19:18:53 +0000
+Cannot render console from 134.29.89.254! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 398ms (Views: 386.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 134.29.89.254 at 2018-11-09 19:18:55 +0000
+Cannot render console from 134.29.89.254! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 134.29.89.254 at 2018-11-09 20:17:51 +0000
+Cannot render console from 134.29.89.254! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 246ms (Views: 235.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 134.29.89.254 at 2018-11-09 20:17:53 +0000
+Cannot render console from 134.29.89.254! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter" for 134.29.89.254 at 2018-11-09 20:17:56 +0000
+Cannot render console from 134.29.89.254! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+>>>>>>> s-workspace3
 
 OAuth::Unauthorized (403 Forbidden):
   oauth (0.5.4) lib/oauth/consumer.rb:236:in `token_request'
@@ -9480,6 +9509,7 @@ OAuth::Unauthorized (403 Forbidden):
   /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
 
 
+<<<<<<< HEAD
   Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.4ms)
   Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
   Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
@@ -9634,3 +9664,9 @@ Did you mean?  fridges_url):
   Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
   Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
   Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (47.3ms)
+=======
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (31.0ms)
+>>>>>>> s-workspace3
