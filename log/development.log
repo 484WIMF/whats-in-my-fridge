@@ -8976,3 +8976,15 @@ Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.
 
 Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-09 15:36:44 +0000
 Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 134.29.63.163 at 2018-11-14 17:35:57 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 410ms (Views: 398.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 134.29.63.163 at 2018-11-14 17:35:58 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
