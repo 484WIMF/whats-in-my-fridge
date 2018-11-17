@@ -1,11 +1,14 @@
 Rails.application.routes.draw do
+  get 'home/new'
+
   root 'fridges#home'
   resources :fridges
   
   #resources :fridge
   #root :to => redirect('/fridge')
   
-  
+  get '/contactus' => 'home#contactus'
+  get '/aboutus' => 'home#aboutus'
   #get '/misc' => 'misc#home'
   #get '/welcome' => 'home#welcome'
   #get '/signup' => 'home#signup'

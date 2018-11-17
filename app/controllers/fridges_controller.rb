@@ -60,4 +60,6 @@ class FridgesController < ApplicationController
         redirect_to fridges_path
     end
     
+    def contactus
+    end
 end
