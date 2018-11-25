@@ -1,0 +1,16 @@
+<h>search recipe: </h>
+<input type="text" placeholder="Search..">
+<br>
+
+<% @recipes.each do |recipe| %>
+<%=recipe.menu%>
+<%=recipe.ingredient%>
+<%=recipe.recipe%>
+<%=recipe.country%>
+<%=recipe.rate%>
+
+<% end %>
+<a href='/write'>Add recipe</a>
+<br>
+<a href='/profile'>Go to my profile</a>
+

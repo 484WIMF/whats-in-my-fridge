@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'main/main'
+
   get 'profile/new'
 
   root 'fridges#home'
@@ -10,11 +12,17 @@ Rails.application.routes.draw do
   get '/contactus' => 'home#contactus'
   get '/aboutus' => 'home#aboutus'
   get '/countries' => 'category#countries'
+  
+  get '/main' => 'main#main'
+  get '/profile' => 'main#profile'
+  get '/write' => 'main#write'
+  post '/create' => 'main#create'
   #get '/misc' => 'misc#home'
   #get '/welcome' => 'home#welcome'
   #get '/signup' => 'home#signup'
   #get '/profile' => 'home#profile'
   #get '/profile_' => 'home#profile_'
+  
   
   get 'auth/:provider/callback' => 'sessions#create'
   post 'logout' => 'sessions#destroy'
