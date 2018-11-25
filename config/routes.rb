@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'home/new'
+  get 'profile/new'
 
   root 'fridges#home'
   resources :fridges
@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   
   get '/contactus' => 'home#contactus'
   get '/aboutus' => 'home#aboutus'
+  get '/countries' => 'category#countries'
   #get '/misc' => 'misc#home'
   #get '/welcome' => 'home#welcome'
   #get '/signup' => 'home#signup'

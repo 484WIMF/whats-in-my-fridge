@@ -10269,3 +10269,781 @@ Processing by FridgesController#index as HTML
   [1m[35mFridge Load (0.3ms)[0m  SELECT "fridges".* FROM "fridges"
   Rendered fridges/index.html.haml within layouts/application (2.9ms)
 Completed 200 OK in 45ms (Views: 43.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-17 06:29:14 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 226ms (Views: 203.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-17 06:29:15 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter" for 71.87.113.148 at 2018-11-17 06:29:17 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter" for 71.87.113.148 at 2018-11-17 06:29:17 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter/callback?oauth_token=Udi0KgAAAAAA4Y-MAAABZyBb-Ow&oauth_verifier=7GHeSjWrLQOwP7yJqqGiyDwjFlmwoBIq" for 71.87.113.148 at 2018-11-17 06:29:18 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"Udi0KgAAAAAA4Y-MAAABZyBb-Ow", "oauth_verifier"=>"7GHeSjWrLQOwP7yJqqGiyDwjFlmwoBIq", "provider"=>"twitter"}
+  [1m[35m (0.3ms)[0m  SELECT "usergoers"."id" FROM "usergoers" WHERE "usergoers"."provider" = ? AND "usergoers"."uid" = ?  [["provider", "twitter"], ["uid", "960973551070273536"]]
+Redirected to https://whatsinmyfridge-sunkyong9768.c9users.io/fridges
+Completed 302 Found in 4ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-11-17 06:29:18 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  [1m[36mFridge Load (0.3ms)[0m  [1mSELECT "fridges".* FROM "fridges"[0m
+  Rendered fridges/index.html.haml within layouts/application (5.9ms)
+Completed 200 OK in 46ms (Views: 21.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-22 16:21:30 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 329ms (Views: 316.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-22 16:21:32 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter" for 71.87.113.148 at 2018-11-22 16:37:39 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter" for 71.87.113.148 at 2018-11-22 16:37:39 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter/callback?oauth_token=t5UGrgAAAAAA4Y-MAAABZzxIv3A&oauth_verifier=GWfOqgvYEqcEnAULsbQjCuivHvN2us39" for 71.87.113.148 at 2018-11-22 16:37:44 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"t5UGrgAAAAAA4Y-MAAABZzxIv3A", "oauth_verifier"=>"GWfOqgvYEqcEnAULsbQjCuivHvN2us39", "provider"=>"twitter"}
+  [1m[35m (0.3ms)[0m  SELECT "usergoers"."id" FROM "usergoers" WHERE "usergoers"."provider" = ? AND "usergoers"."uid" = ?  [["provider", "twitter"], ["uid", "960973551070273536"]]
+Redirected to https://whatsinmyfridge-sunkyong9768.c9users.io/fridges
+Completed 302 Found in 4ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-11-22 16:37:45 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  [1m[36mFridge Load (0.3ms)[0m  [1mSELECT "fridges".* FROM "fridges"[0m
+  Rendered fridges/index.html.haml within layouts/application (7.4ms)
+Completed 200 OK in 58ms (Views: 28.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-11-22 16:37:57 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  [1m[35mFridge Load (0.3ms)[0m  SELECT "fridges".* FROM "fridges"
+  Rendered fridges/index.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 51ms (Views: 50.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-11-22 16:37:59 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  [1m[36mFridge Load (0.3ms)[0m  [1mSELECT "fridges".* FROM "fridges"[0m
+  Rendered fridges/index.html.haml within layouts/application (3.1ms)
+Completed 200 OK in 43ms (Views: 40.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-11-22 16:37:59 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  [1m[35mFridge Load (0.3ms)[0m  SELECT "fridges".* FROM "fridges"
+  Rendered fridges/index.html.haml within layouts/application (4.0ms)
+Completed 200 OK in 48ms (Views: 46.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-11-22 16:38:00 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  [1m[36mFridge Load (0.3ms)[0m  [1mSELECT "fridges".* FROM "fridges"[0m
+  Rendered fridges/index.html.haml within layouts/application (2.6ms)
+Completed 200 OK in 38ms (Views: 36.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-11-22 16:38:15 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  [1m[35mFridge Load (0.3ms)[0m  SELECT "fridges".* FROM "fridges"
+  Rendered fridges/index.html.haml within layouts/application (5.9ms)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-11-22 16:38:16 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  [1m[36mFridge Load (0.4ms)[0m  [1mSELECT "fridges".* FROM "fridges"[0m
+  Rendered fridges/index.html.haml within layouts/application (2.1ms)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-11-22 16:41:13 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  [1m[35mFridge Load (0.5ms)[0m  SELECT "fridges".* FROM "fridges"
+  Rendered fridges/index.html.haml within layouts/application (8.6ms)
+Completed 200 OK in 32ms (Views: 30.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-11-22 16:41:13 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  [1m[36mFridge Load (0.3ms)[0m  [1mSELECT "fridges".* FROM "fridges"[0m
+  Rendered fridges/index.html.haml within layouts/application (2.1ms)
+Completed 200 OK in 71ms (Views: 70.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-11-22 16:47:13 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (4.8ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/workspace/whats-in-my-fridge/app/views/fridges/index.html.haml:7: unknown type of %string
+o 'Go to my profile page', %br/
+                              ^
+/home/ubuntu/workspace/whats-in-my-fridge/app/views/fridges/index.html.haml:7: syntax error, unexpected end-of-input
+o 'Go to my profile page', %br/
+                              ^):
+  app/views/fridges/index.html.haml:7: unknown type of %string
+  app/views/fridges/index.html.haml:7: syntax error, unexpected end-of-input
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (43.4ms)
+
+
+Started GET "/auth/twitter" for 71.87.113.148 at 2018-11-22 16:48:14 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter/callback?oauth_token=pG5EqAAAAAAA4Y-MAAABZzxScSA&oauth_verifier=0Y2KYGadI3e0l7BCgz4l5C7lFxTnzC9Q" for 71.87.113.148 at 2018-11-22 16:48:29 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"pG5EqAAAAAAA4Y-MAAABZzxScSA", "oauth_verifier"=>"0Y2KYGadI3e0l7BCgz4l5C7lFxTnzC9Q", "provider"=>"twitter"}
+  [1m[35m (0.2ms)[0m  SELECT "usergoers"."id" FROM "usergoers" WHERE "usergoers"."provider" = ? AND "usergoers"."uid" = ?  [["provider", "twitter"], ["uid", "960973551070273536"]]
+Redirected to https://whatsinmyfridge-sunkyong9768.c9users.io/fridges
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-11-22 16:48:30 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (5.4ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/workspace/whats-in-my-fridge/app/views/fridges/index.html.haml:7: unknown type of %string
+o 'Go to my profile page', %br/
+                              ^
+/home/ubuntu/workspace/whats-in-my-fridge/app/views/fridges/index.html.haml:7: syntax error, unexpected end-of-input
+o 'Go to my profile page', %br/
+                              ^):
+  app/views/fridges/index.html.haml:7: unknown type of %string
+  app/views/fridges/index.html.haml:7: syntax error, unexpected end-of-input
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (42.2ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-11-22 16:50:06 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  [1m[36mFridge Load (0.4ms)[0m  [1mSELECT "fridges".* FROM "fridges"[0m
+  Rendered fridges/index.html.haml within layouts/application (7.0ms)
+Completed 200 OK in 27ms (Views: 26.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-11-22 17:21:01 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FridgesController#index as HTML
+  [1m[35mFridge Load (0.2ms)[0m  SELECT "fridges".* FROM "fridges"
+  Rendered fridges/index.html.haml within layouts/application (11.4ms)
+Completed 200 OK in 479ms (Views: 446.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/category.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 71.87.113.148 at 2018-11-22 17:21:02 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/category.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 71.87.113.148 at 2018-11-22 17:21:02 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/fridges/category" for 71.87.113.148 at 2018-11-22 17:21:03 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#show as HTML
+  Parameters: {"id"=>"category"}
+  [1m[36mFridge Load (0.4ms)[0m  [1mSELECT  "fridges".* FROM "fridges" WHERE "fridges"."id" = ? LIMIT 1[0m  [["id", 0]]
+Completed 404 Not Found in 6ms (ActiveRecord: 0.4ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Fridge with 'id'=category):
+  app/controllers/fridges_controller.rb:12:in `show'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (32.3ms)
+
+
+Started GET "/fridges/category" for 71.87.113.148 at 2018-11-22 17:21:51 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#show as HTML
+  Parameters: {"id"=>"category"}
+  [1m[35mFridge Load (0.4ms)[0m  SELECT  "fridges".* FROM "fridges" WHERE "fridges"."id" = ? LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 19ms (ActiveRecord: 1.1ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Fridge with 'id'=category):
+  app/controllers/fridges_controller.rb:12:in `show'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-22 17:21:54 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 28ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-22 17:21:54 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter" for 71.87.113.148 at 2018-11-22 17:21:56 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter" for 71.87.113.148 at 2018-11-22 17:21:56 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter/callback?oauth_token=tj-wlgAAAAAA4Y-MAAABZzxxSkQ&oauth_verifier=gL0Y0diZJgw0lJUZHdXwbyiPjH7KSuxe" for 71.87.113.148 at 2018-11-22 17:21:57 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"tj-wlgAAAAAA4Y-MAAABZzxxSkQ", "oauth_verifier"=>"gL0Y0diZJgw0lJUZHdXwbyiPjH7KSuxe", "provider"=>"twitter"}
+  [1m[36m (0.2ms)[0m  [1mSELECT "usergoers"."id" FROM "usergoers" WHERE "usergoers"."provider" = ? AND "usergoers"."uid" = ?[0m  [["provider", "twitter"], ["uid", "960973551070273536"]]
+Redirected to https://whatsinmyfridge-sunkyong9768.c9users.io/fridges
+Completed 302 Found in 3ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-11-22 17:21:57 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  [1m[35mFridge Load (0.3ms)[0m  SELECT "fridges".* FROM "fridges"
+  Rendered fridges/index.html.haml within layouts/application (5.5ms)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/category" for 71.87.113.148 at 2018-11-22 17:21:59 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/category"):
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (10.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (59.2ms)
+
+
+Started GET "/category" for 71.87.113.148 at 2018-11-22 17:22:30 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/category"):
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (37.4ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-11-22 17:22:35 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  [1m[36mFridge Load (0.3ms)[0m  [1mSELECT "fridges".* FROM "fridges"[0m
+  Rendered fridges/index.html.haml within layouts/application (5.7ms)
+Completed 200 OK in 25ms (Views: 24.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/countries" for 71.87.113.148 at 2018-11-22 17:22:36 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoryController#countries as HTML
+  Rendered category/countries.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/countries" for 71.87.113.148 at 2018-11-22 17:22:43 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoryController#countries as HTML
+  Rendered category/countries.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 19ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-11-22 17:22:50 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  [1m[35mFridge Load (0.2ms)[0m  SELECT "fridges".* FROM "fridges"
+  Rendered fridges/index.html.haml within layouts/application (1.5ms)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-11-22 17:22:51 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  [1m[36mFridge Load (0.3ms)[0m  [1mSELECT "fridges".* FROM "fridges"[0m
+  Rendered fridges/index.html.haml within layouts/application (1.6ms)
+Completed 200 OK in 21ms (Views: 20.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-11-22 17:22:52 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  [1m[35mFridge Load (0.3ms)[0m  SELECT "fridges".* FROM "fridges"
+  Rendered fridges/index.html.haml within layouts/application (1.8ms)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/countries" for 71.87.113.148 at 2018-11-22 17:22:53 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoryController#countries as HTML
+  Rendered category/countries.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/countries" for 71.87.113.148 at 2018-11-22 17:25:07 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoryController#countries as HTML
+  Rendered category/countries.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter" for 71.87.113.148 at 2018-11-22 17:25:24 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter" for 71.87.113.148 at 2018-11-22 17:25:25 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter/callback?oauth_token=YEG5NAAAAAAA4Y-MAAABZzx0eHc&oauth_verifier=OGmVMIPWs8tyt3iVhHl8w11LL4nBVSsf" for 71.87.113.148 at 2018-11-22 17:25:25 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"YEG5NAAAAAAA4Y-MAAABZzx0eHc", "oauth_verifier"=>"OGmVMIPWs8tyt3iVhHl8w11LL4nBVSsf", "provider"=>"twitter"}
+  [1m[36m (0.3ms)[0m  [1mSELECT "usergoers"."id" FROM "usergoers" WHERE "usergoers"."provider" = ? AND "usergoers"."uid" = ?[0m  [["provider", "twitter"], ["uid", "960973551070273536"]]
+Redirected to https://whatsinmyfridge-sunkyong9768.c9users.io/fridges
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-11-22 17:25:26 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  [1m[35mFridge Load (0.3ms)[0m  SELECT "fridges".* FROM "fridges"
+  Rendered fridges/index.html.haml within layouts/application (1.8ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/fridges/new" for 71.87.113.148 at 2018-11-22 17:26:17 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#new as HTML
+  Rendered fridges/_fridge_form.html.haml (4.4ms)
+  Rendered fridges/new.html.haml within layouts/application (29.8ms)
+Completed 200 OK in 55ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-11-22 17:28:20 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  [1m[36mFridge Load (0.5ms)[0m  [1mSELECT "fridges".* FROM "fridges"[0m
+  Rendered fridges/index.html.haml within layouts/application (2.3ms)
+Completed 200 OK in 23ms (Views: 21.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/countries" for 71.87.113.148 at 2018-11-22 17:28:21 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoryController#countries as HTML
+  Rendered category/countries.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 19ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 68.180.32.1 at 2018-11-24 00:20:03 +0000
+Cannot render console from 68.180.32.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 546ms (Views: 534.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/profile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 68.180.32.1 at 2018-11-24 00:20:04 +0000
+Cannot render console from 68.180.32.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/category.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 68.180.32.1 at 2018-11-24 00:20:04 +0000
+Cannot render console from 68.180.32.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/category.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 68.180.32.1 at 2018-11-24 00:20:04 +0000
+Cannot render console from 68.180.32.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 68.180.32.1 at 2018-11-24 00:20:04 +0000
+Cannot render console from 68.180.32.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 68.180.32.1 at 2018-11-24 00:20:05 +0000
+Cannot render console from 68.180.32.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter" for 68.180.32.1 at 2018-11-24 00:20:24 +0000
+Cannot render console from 68.180.32.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter" for 68.180.32.1 at 2018-11-24 00:20:25 +0000
+Cannot render console from 68.180.32.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter/callback?oauth_token=NVxV8QAAAAAA4Y-MAAABZ0MWx7Y&oauth_verifier=MpOmlwaGQQXGlgbAdjRS6o50FMS9w2cJ" for 68.180.32.1 at 2018-11-24 00:20:27 +0000
+Cannot render console from 68.180.32.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"NVxV8QAAAAAA4Y-MAAABZ0MWx7Y", "oauth_verifier"=>"MpOmlwaGQQXGlgbAdjRS6o50FMS9w2cJ", "provider"=>"twitter"}
+  [1m[35m (0.2ms)[0m  SELECT "usergoers"."id" FROM "usergoers" WHERE "usergoers"."provider" = ? AND "usergoers"."uid" = ?  [["provider", "twitter"], ["uid", "960973551070273536"]]
+Redirected to https://whatsinmyfridge-sunkyong9768.c9users.io/fridges
+Completed 302 Found in 3ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/fridges" for 68.180.32.1 at 2018-11-24 00:20:28 +0000
+Cannot render console from 68.180.32.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  [1m[36mFridge Load (0.2ms)[0m  [1mSELECT "fridges".* FROM "fridges"[0m
+  Rendered fridges/index.html.haml within layouts/application (5.2ms)
+Completed 200 OK in 48ms (Views: 24.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/countries" for 68.180.32.1 at 2018-11-24 00:20:38 +0000
+Cannot render console from 68.180.32.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoryController#countries as HTML
+  Rendered category/countries.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 26ms (Views: 25.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fridges/new" for 68.180.32.1 at 2018-11-24 00:20:50 +0000
+Cannot render console from 68.180.32.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#new as HTML
+  Rendered fridges/_fridge_form.html.haml (3.4ms)
+  Rendered fridges/new.html.haml within layouts/application (19.3ms)
+Completed 200 OK in 41ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/fridges" for 68.180.32.1 at 2018-11-24 00:20:55 +0000
+Cannot render console from 68.180.32.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"88m7y8ehJkOwX0tZ+ZZSdwDhkslVG1WMoFRZSTVOb0lfd8pAEBDgNYxxTKKyOPHesTvzEuSfH5xbwwnUCxmMNQ==", "fridge"=>{"menu"=>"", "ingredient"=>"", "recipe"=>"", "rating"=>"1", "where"=>"Africa"}, "commit"=>"Save Changes"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35mUsergoer Load (0.3ms)[0m  SELECT "usergoers".* FROM "usergoers" WHERE 1=0
+  Rendered fridges/_fridge_form.html.haml (51.2ms)
+  Rendered fridges/new.html.haml within layouts/application (53.8ms)
+Completed 500 Internal Server Error in 62ms (ActiveRecord: 0.6ms)
+
+ActionView::Template::Error (undefined local variable or method `fridges_controller' for #<#<Class:0x007fecb4721b88>:0x007fecb5f1e858>
+Did you mean?  fridges_url):
+    1: - unless @fridge.errors.empty?
+    2:   #warning
+    3:     Errors prevented this fridge from being #{fridges_controller}d:
+    4:     %%ul
+    5:       %li
+    6:         -@fridge.errors.full_messages.each do |error|
+  app/views/fridges/_fridge_form.html.haml:3:in `_app_views_fridges__fridge_form_html_haml__4038571913385175115_70327322612080'
+  app/views/fridges/new.html.haml:27:in `block in _app_views_fridges_new_html_haml___2007431745430340548_70327272907640'
+  app/views/fridges/new.html.haml:25:in `_app_views_fridges_new_html_haml___2007431745430340548_70327272907640'
+  app/controllers/fridges_controller.rb:29:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (23.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (64.7ms)
+
+
+Started GET "/fridges" for 68.180.32.1 at 2018-11-24 00:21:00 +0000
+Cannot render console from 68.180.32.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  [1m[36mFridge Load (0.4ms)[0m  [1mSELECT "fridges".* FROM "fridges"[0m
+  Rendered fridges/index.html.haml within layouts/application (1.9ms)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-11-24 23:32:47 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 353ms (Views: 341.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/profile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 71.87.113.148 at 2018-11-24 23:32:48 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/category.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 71.87.113.148 at 2018-11-24 23:32:48 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 71.87.113.148 at 2018-11-24 23:32:48 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-11-24 23:32:49 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter" for 71.87.113.148 at 2018-11-24 23:32:54 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter" for 71.87.113.148 at 2018-11-24 23:32:54 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter/callback?oauth_token=FemtxAAAAAAA4Y-MAAABZ0gRo7o&oauth_verifier=nZgei5mwZCnK9FawcYVj8a7iikw8JO5t" for 71.87.113.148 at 2018-11-24 23:32:56 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"FemtxAAAAAAA4Y-MAAABZ0gRo7o", "oauth_verifier"=>"nZgei5mwZCnK9FawcYVj8a7iikw8JO5t", "provider"=>"twitter"}
+  [1m[35m (0.2ms)[0m  SELECT "usergoers"."id" FROM "usergoers" WHERE "usergoers"."provider" = ? AND "usergoers"."uid" = ?  [["provider", "twitter"], ["uid", "960973551070273536"]]
+Redirected to https://whatsinmyfridge-sunkyong9768.c9users.io/fridges
+Completed 302 Found in 3ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-11-24 23:32:57 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  [1m[36mFridge Load (0.3ms)[0m  [1mSELECT "fridges".* FROM "fridges"[0m
+  Rendered fridges/index.html.haml within layouts/application (9.6ms)
+Completed 200 OK in 86ms (Views: 34.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/countries" for 71.87.113.148 at 2018-11-25 01:09:56 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoryController#countries as HTML
+  Rendered category/countries.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 90ms (Views: 88.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/countries" for 71.87.113.148 at 2018-11-25 01:09:58 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoryController#countries as HTML
+  Rendered category/countries.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 71ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fridges/new" for 71.87.113.148 at 2018-11-25 01:39:37 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#new as HTML
+  Rendered fridges/_fridge_form.html.haml (9.2ms)
+  Rendered fridges/new.html.haml within layouts/application (39.3ms)
+Completed 200 OK in 95ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/fridges" for 71.87.113.148 at 2018-11-25 01:39:39 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hgzMiNCo8IJJy9JVy8YotE0FdrA5Jw/US3mpogI17mifeaZN/GxHyOt+WEYhVYgMsnI1xRxRoRfoeDal4fStCQ==", "fridge"=>{"menu"=>"", "ingredient"=>"", "recipe"=>"", "rating"=>"1", "where"=>"Africa"}, "commit"=>"Save Changes"}
+  [1m[35m (0.4ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35mUsergoer Load (0.5ms)[0m  SELECT "usergoers".* FROM "usergoers" WHERE 1=0
+  Rendered fridges/_fridge_form.html.haml (42.9ms)
+  Rendered fridges/new.html.haml within layouts/application (45.4ms)
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 1.0ms)
+
+ActionView::Template::Error (undefined local variable or method `fridges_controller' for #<#<Class:0x00000004a238d0>:0x007f18d875b028>
+Did you mean?  fridges_url):
+    1: - unless @fridge.errors.empty?
+    2:   #warning
+    3:     Errors prevented this fridge from being #{fridges_controller}d:
+    4:     %%ul
+    5:       %li
+    6:         -@fridge.errors.full_messages.each do |error|
+  app/views/fridges/_fridge_form.html.haml:3:in `_app_views_fridges__fridge_form_html_haml___1865583157411575743_69872389195140'
+  app/views/fridges/new.html.haml:27:in `block in _app_views_fridges_new_html_haml___3552049200087240888_69872386913400'
+  app/views/fridges/new.html.haml:25:in `_app_views_fridges_new_html_haml___3552049200087240888_69872386913400'
+  app/controllers/fridges_controller.rb:29:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (45.6ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-11-25 01:52:16 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  [1m[36mFridge Load (0.3ms)[0m  [1mSELECT "fridges".* FROM "fridges"[0m
+  Rendered fridges/index.html.haml within layouts/application (2.0ms)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/countries" for 71.87.113.148 at 2018-11-25 01:52:18 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoryController#countries as HTML
+  Rendered category/countries.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 28ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-11-25 01:52:19 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  [1m[35mFridge Load (0.3ms)[0m  SELECT "fridges".* FROM "fridges"
+  Rendered fridges/index.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/aboutus" for 71.87.113.148 at 2018-11-25 02:43:48 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#aboutus as HTML
+  Rendered home/aboutus.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 41ms (Views: 38.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contactus" for 71.87.113.148 at 2018-11-25 02:43:52 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#contactus as HTML
+  Rendered home/contactus.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 31ms (Views: 30.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter" for 71.87.113.148 at 2018-11-25 02:43:58 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter" for 71.87.113.148 at 2018-11-25 02:43:58 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter/callback?oauth_token=qIXSwwAAAAAA4Y-MAAABZ0jAkRk&oauth_verifier=Q7sRw0lPd0t7fn334usf6wfrC19its6G" for 71.87.113.148 at 2018-11-25 02:43:59 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"qIXSwwAAAAAA4Y-MAAABZ0jAkRk", "oauth_verifier"=>"Q7sRw0lPd0t7fn334usf6wfrC19its6G", "provider"=>"twitter"}
+  [1m[36m (0.3ms)[0m  [1mSELECT "usergoers"."id" FROM "usergoers" WHERE "usergoers"."provider" = ? AND "usergoers"."uid" = ?[0m  [["provider", "twitter"], ["uid", "960973551070273536"]]
+Redirected to https://whatsinmyfridge-sunkyong9768.c9users.io/fridges
+Completed 302 Found in 4ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-11-25 02:44:00 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  [1m[35mFridge Load (0.4ms)[0m  SELECT "fridges".* FROM "fridges"
+  Rendered fridges/index.html.haml within layouts/application (2.3ms)
+Completed 200 OK in 38ms (Views: 36.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-11-25 02:44:08 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  [1m[36mFridge Load (0.3ms)[0m  [1mSELECT "fridges".* FROM "fridges"[0m
+  Rendered fridges/index.html.haml within layouts/application (1.6ms)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/countries" for 71.87.113.148 at 2018-11-25 02:44:09 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoryController#countries as HTML
+  Rendered category/countries.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 19ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-11-25 02:44:21 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  [1m[35mFridge Load (0.2ms)[0m  SELECT "fridges".* FROM "fridges"
+  Rendered fridges/index.html.haml within layouts/application (1.5ms)
+Completed 200 OK in 22ms (Views: 21.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-11-25 02:44:22 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  [1m[36mFridge Load (0.3ms)[0m  [1mSELECT "fridges".* FROM "fridges"[0m
+  Rendered fridges/index.html.haml within layouts/application (1.5ms)
+Completed 200 OK in 27ms (Views: 26.1ms | ActiveRecord: 0.3ms)
