@@ -1,6 +1,7 @@
 class MainController < ApplicationController
   def main
     @recipes = Recipe.all
+    @ingredients = Ingredient.all
   end
   
   def profile
