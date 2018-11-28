@@ -15,6 +15,6 @@ class SessionsController < ApplicationController
     end
     
     def login
-       render :partial => 'sessions/login' 
+      render :partial => 'sessions/login' 
     end
 end
