@@ -13,15 +13,5 @@
   = link_to 'Nah I am just hungry'
   %br/
 
-  
-  %tbody
-    - @fridges.each do |fridge|
-      %tr
-        %td= fridge.menu 
-        %td= fridge.ingredient
-        %td= fridge.recipe
-        %td= fridge.rating
-        %td= fridge.where
-        %td= link_to "More about #{fridge.menu}", fridge_path(fridge)
 
-= link_to 'Add new recipe', new_fridge_path
+-#= link_to 'Add new recipe', new_fridge_path

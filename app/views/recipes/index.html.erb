@@ -1,11 +1,20 @@
-index page in recipes
+<h>search ingredient: </h>
+<%= form_tag search_recipes_path, :method => :get do%>
+<%= text_field_tag :query, params[:query] %> <%= submit_tag "Search" %>
+<% end %>
 
+<br>
+<br>
 <br>
 <% @recipes.each do |recipe| %>
 <%=recipe.menu%><br>
 <%=recipe.ingredient%><br>
 <%=recipe.recipe%><br>
-<%=recipe.country%><br>
-<%=recipe.rate%><br>
+Category: <%=recipe.country%><br>
+Rate: <%=recipe.rate%><br>
 <br>
 <% end %>
+
+<a href='/write'>Add recipe</a>
+<br>
+<a href='/profile'>Go to my profile</a>
