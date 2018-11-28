@@ -59,3 +59,7 @@ end
   gem 'haml'
   
   gem 'omniauth-twitter'
+  
+  gem 'sunspot_rails'
+  
+  gem 'sunspot_solr'

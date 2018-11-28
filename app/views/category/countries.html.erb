@@ -1,6 +1,30 @@
+<!--
 <a href='/main'>Africa</a><br>
 <a href='/main'>Asia</a><br>
 <a href='/main'>Austrailia/Oceania</a><br>
 <a href='/main'>North America</a><br>
 <a href='/main'>South America</a><br>
-<a href='/main'>Europe</a><br>
+<a href='/main'>Europe</a>
+-->
+
+<!--
+<a href='/main'>Africa</a><br>
+%= link_to '/main', recipes_path(:country=>"Africa") %> 
+<a href='/main'>Asia</a><br>
+%= link_to '/main', recipes_path(:country=>"Asia") %><br>
+<a href='/main'>Austrailia/Oceania</a>
+%= link_to '/main', recipes_path(:country=>"Austrailia/Oceania") %><br>
+<a href='/main'>North America</a>
+%= link_to '/main', recipes_path(:country=>"North America") %><br>
+<a href='/main'>South America</a>
+%= link_to '/main', recipes_path(:country=>"South America") %><br>
+<a href='/main'>Europe</a>
+%= link_to '/main', recipes_path(:country=>"Europe") %><br>
+-->
+
+<%= link_to "Africa", recipes_path(:country=>"Africa") %><br>
+<%= link_to "Asia", recipes_path(:country=>"Asia") %><br>
+<%= link_to "Austrailia/Oceania", recipes_path(:country=>"Austrailia/Oceania") %><br>
+<%= link_to "North America", recipes_path(:country=>"North America") %><br>
+<%= link_to "South America", recipes_path(:country=>"South America") %><br>
+<%= link_to "Europe", recipes_path(:country=>"Europe") %><br>

@@ -1,14 +1,30 @@
 class MainController < ApplicationController
+  
+  
   def main
-    @recipes = Recipe.all
-    @ingredients = Ingredient.all
+    redirect_to '/main'
   end
+  
+  #def main
+    # show all results
+    #@recipes = Recipe.all
+    #@ingredients = Ingredient.all
+    
+  #  if params[:country]
+  #    @recipes = Recipe.where(:country => params[:country])
+  #  else
+  #    @recipes = Recipe.all
+  #  end
+    
+    
+  # end
   
   def profile
   end
   
   def write
   end
+  
   
   def create
     recipe = Recipe.new

@@ -1,0 +1,11 @@
+index page in recipes
+
+<br>
+<% @recipes.each do |recipe| %>
+<%=recipe.menu%><br>
+<%=recipe.ingredient%><br>
+<%=recipe.recipe%><br>
+<%=recipe.country%><br>
+<%=recipe.rate%><br>
+<br>
+<% end %>

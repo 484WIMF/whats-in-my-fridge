@@ -23,6 +23,9 @@ Rails.application.routes.draw do
   #get '/profile' => 'home#profile'
   #get '/profile_' => 'home#profile_'
   
+  #
+  get '/index' => 'main#index'
+  #
   
   get 'auth/:provider/callback' => 'sessions#create'
   post 'logout' => 'sessions#destroy'
@@ -31,6 +34,14 @@ Rails.application.routes.draw do
 
 
   get '/login' => 'sessions#login'
+  
+  get 'main/search' => "main#search"
+  
+  resources :recipes do
+    collection do
+      get :search
+    end
+  end
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

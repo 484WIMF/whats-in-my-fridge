@@ -10,4 +10,5 @@ class ApplicationController < ActionController::Base
     @current_user ||= Usergoer.where(:id => session[:user_id])
     redirect_to login_path and return unless @current_user
   end
+  
 end

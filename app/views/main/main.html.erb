@@ -1,6 +1,9 @@
 <h>search recipe: </h>
-<input type="text" placeholder="Search..">
+<%= form_tag search_recipes_path, :method => :get do%>
+<%= text_field_tag :query, params[:query] %> <%= submit_tag "Search" %>
+<% end %>
 <br>
+
 
 <% @recipes.each do |recipe| %>
 <%=recipe.menu%>
