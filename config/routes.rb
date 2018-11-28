@@ -14,9 +14,9 @@ Rails.application.routes.draw do
   get '/countries' => 'category#countries'
   
   get '/main' => 'main#main'
-  get '/profile' => 'main#profile'
   get '/write' => 'main#write'
   post '/create' => 'main#create'
+  get '/profile' => 'profile#profile'
   #get '/misc' => 'misc#home'
   #get '/welcome' => 'home#welcome'
   #get '/signup' => 'home#signup'
@@ -26,6 +26,8 @@ Rails.application.routes.draw do
   #
   get '/index' => 'main#index'
   #
+  get '/profile/write' => 'profile#write'
+
   
   get 'auth/:provider/callback' => 'sessions#create'
   post 'logout' => 'sessions#destroy'
