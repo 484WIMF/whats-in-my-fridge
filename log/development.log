@@ -509,3 +509,237 @@ Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.
 Processing by MainController#main as HTML
 Redirected to https://whatsinmyfridge-sunkyong9768.c9users.io/main
 Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+  [1m[36m (14.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (8.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateFridges (20181109065353)
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+DEPRECATION WARNING: `#timestamps` was called without specifying an option for `null`. In Rails 5, this behavior will change to `null: false`. You should manually specify `null: true` to prevent the behavior of your existing migrations from changing. (called from block in change at /home/ubuntu/workspace/whats-in-my-fridge/db/migrate/20181109065353_create_fridges.rb:10)
+  [1m[35m (0.7ms)[0m  CREATE TABLE "fridges" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "menu" varchar, "ingredient" text, "recipe" text, "rating" varchar, "where" varchar, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20181109065353"]]
+  [1m[35m (11.4ms)[0m  commit transaction
+Migrating to CreateUsergoers (20181109102819)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "usergoers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "provider" varchar, "uid" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20181109102819"]]
+  [1m[35m (8.3ms)[0m  commit transaction
+Migrating to CreateRecipes (20181125165830)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "menu" text, "ingredient" text, "recipe" text, "country" varchar, "rate" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20181125165830"]]
+  [1m[35m (10.1ms)[0m  commit transaction
+Migrating to CreateIngredients (20181125180519)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "ingredient" text, "quantity" integer, "calories" integer, "health" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20181125180519"]]
+  [1m[35m (8.7ms)[0m  commit transaction
+Migrating to CreateProfiles (20181129005416)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "profiles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20181129005416"]]
+  [1m[35m (8.9ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "recipes" ("menu", "ingredient", "recipe", "country", "rate", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["menu", "Cheeseburger"], ["ingredient", "Bun, patty, slice cheese"], ["recipe", "1. Grill patty 2. Place slice chees on top of the patty 3. Grill bun 4. Assemble all"], ["country", "North America"], ["rate", 5], ["created_at", "2018-11-29 02:50:08.404362"], ["updated_at", "2018-11-29 02:50:08.404362"]]
+  [1m[32mSOLR Request (8.9ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "recipes" ("menu", "ingredient", "recipe", "country", "rate", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["menu", "Cheeseburger"], ["ingredient", "Bun, patty, slice cheese"], ["recipe", "1. Grill patty 2. Place slice chees on top of the patty 3. Grill bun 4. Assemble all"], ["country", "North America"], ["rate", 5], ["created_at", "2018-11-29 02:53:25.036898"], ["updated_at", "2018-11-29 02:53:25.036898"]]
+  [1m[32mSOLR Request (310.3ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[35m (10.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "recipes" ("menu", "ingredient", "recipe", "country", "rate", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["menu", "Pizza"], ["ingredient", "Dough, Mozzarella cheese, tomato sauce, meat"], ["recipe", "1. Shape dough in flat, circle shape 2. Apply tomato sauce on dough as wanted 3. Place mozzarella cheese on top 4. Place meat as wanted 5. Bake oven in 400F for 10 min."], ["country", "North America"], ["rate", 5], ["created_at", "2018-11-29 02:53:25.368798"], ["updated_at", "2018-11-29 02:53:25.368798"]]
+  [1m[32mSOLR Request (11.9ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[36m (11.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "recipes" ("menu", "ingredient", "recipe", "country", "rate", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["menu", "Tikka Masala"], ["ingredient", "chicken breast, Tikka Masala spice, garlic, ginger, whip cream, onion, tomatoe, yogurt, lemon juice"], ["recipe", "1. In a large bowl, combine yogurt, lemon juice, Tikka masala spice, ginger, and garlic. 2. Stir in chicken, cover, and refrigerate for 1 hour. 3. Preheat a grill for high heat. 4. Lightly oil the grill grate 5. Melt butter in a large heavy skillet over medium heat."], ["country", "Asia"], ["rate", 5], ["created_at", "2018-11-29 02:53:25.395385"], ["updated_at", "2018-11-29 02:53:25.395385"]]
+  [1m[32mSOLR Request (6.4ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[35m (8.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "recipes" ("menu", "ingredient", "recipe", "country", "rate", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["menu", "Piri-Piri Chicken"], ["ingredient", "butter, cilantro, garlic, piri-piri sauce, lemon juice, chicken breast, olive oil"], ["recipe", "1. Melt butter in small saucepan over medium-high heat. 2. Add cilantro and garlic 3. Add piri-piri sauce and simmer for 2 minutes. 4. Chop cilantro, garlic, lemon juice and piri-piri sauce and marinate sauce into chicken breast. 5. Grill until chicken becomes golden brown 6. Serve"], ["country", "Africa"], ["rate", 5], ["created_at", "2018-11-29 02:53:25.413596"], ["updated_at", "2018-11-29 02:53:25.413596"]]
+  [1m[32mSOLR Request (6.1ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[36m (10.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "recipes" ("menu", "ingredient", "recipe", "country", "rate", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["menu", "Pavolva"], ["ingredient", "egg white, sugar, vanilla essence, vinegar, cornflour, whipped cream, fruits"], ["recipe", "Pavlova: Preheat the oven to 120 degrees C. Line a baking tray with baking paper then draw an 18cm circle on the paper. 1. Beat the egg whites on medium speed until they are light and creamy with soft peaks. Switch to high speed continuing beating while adding the sugar one tablespoon at a time. Continue beating until the mixture is stiff and shiny. Ensure that the sugar is fully dissolved and that the mixture does not feel grainy. Beat in the vanilla. Remove the beaters and sprinkle the mixture with vinegar and cornflour, then gently fold in. 2. Spoon the pavolva into the centre of the circle drawn on the baking paper. Using the back of a spoon spread to the edges. Build up the edges slightly so that they are higher than the centre, which will make decorating your pavlova a lot easier. 3. Bake for 75 minutes in the preheated oven. Then turn off the oven, prop the door slightly open and leave the pavlova to cool completely in the oven.4. Decorating: In a clean stainless steel or glass bowl (chill the bowl in the fridge first for better whipping), beat the cream to soft peaks. Add the sugar and beat a little longer. Spoon the whipped cream on top of the pavlova and spread to the edges. 5. You can use almost any combination of fresh fruits to top your pavlova. For an especially stunning presentation, try fresh berries and sugared rose petals. Place the fresh berries in the centre of the pavlova on top of the whipped cream, then arrange the sugared rose petals around the edges. Dust with icing sugar and serve."], ["country", "Austrailia/Oceania"], ["rate", 5], ["created_at", "2018-11-29 02:53:25.433233"], ["updated_at", "2018-11-29 02:53:25.433233"]]
+  [1m[32mSOLR Request (6.5ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[35m (12.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "recipes" ("menu", "ingredient", "recipe", "country", "rate", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["menu", "Taco"], ["ingredient", "ground beef, taco seasoning, tomato sauce, lattuce, tomato, cheese"], ["recipe", "1. Cook the ground beef fully, drain grease, then add 1/2 cup tomato sauce and taco seasoning. 2. Allow to simmer for 5 minutes. 3. Add to tacos shells or use in any other recipes that call for taco meat."], ["country", "South America"], ["rate", 5], ["created_at", "2018-11-29 02:53:25.456342"], ["updated_at", "2018-11-29 02:53:25.456342"]]
+  [1m[32mSOLR Request (5.9ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[36m (10.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "recipes" ("menu", "ingredient", "recipe", "country", "rate", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["menu", "Fish and Chips"], ["ingredient", "fish, potatoe, egg, baking power, vegetable oil, flour"], ["recipe", "1. Heat vegetable oil into 360F. 2. Whisk flour, baking powder and cornstarch into large ball 3. Dust the fish with flour and then carefully dip into the batter 4. Place into heated oil and fry for 2 to 3 minutes 4. Serve with chips"], ["country", "Europe"], ["rate", 5], ["created_at", "2018-11-29 02:53:25.476377"], ["updated_at", "2018-11-29 02:53:25.476377"]]
+  [1m[32mSOLR Request (6.8ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[35m (9.5ms)[0m  commit transaction
+
+
+Started GET "/" for 134.29.63.40 at 2018-11-29 02:53:49 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 785ms (Views: 776.2ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/category.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 134.29.63.40 at 2018-11-29 02:53:50 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/fridge.self-d66547b7a48c62c36559003da83a8ded9b2c989e127d60c8ee2ff24941e05a7f.css?body=1" for 134.29.63.40 at 2018-11-29 02:53:50 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 134.29.63.40 at 2018-11-29 02:53:50 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 134.29.63.40 at 2018-11-29 02:53:50 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/recipe.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 134.29.63.40 at 2018-11-29 02:53:50 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 134.29.63.40 at 2018-11-29 02:53:50 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-bf76aa429ff1d0ca05c43922d8e0196229f045cdff5429848a44010bd5000ae7.css?body=1" for 134.29.63.40 at 2018-11-29 02:53:50 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 134.29.63.40 at 2018-11-29 02:53:50 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 134.29.63.40 at 2018-11-29 02:53:50 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 134.29.63.40 at 2018-11-29 02:53:50 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/category.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.63.40 at 2018-11-29 02:53:50 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.63.40 at 2018-11-29 02:53:50 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/fridge.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.63.40 at 2018-11-29 02:53:50 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.63.40 at 2018-11-29 02:53:50 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.63.40 at 2018-11-29 02:53:50 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/recipe.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.63.40 at 2018-11-29 02:53:50 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.63.40 at 2018-11-29 02:53:50 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 134.29.63.40 at 2018-11-29 02:53:50 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 134.29.63.40 at 2018-11-29 02:53:50 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter" for 134.29.63.40 at 2018-11-29 02:53:55 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter" for 134.29.63.40 at 2018-11-29 02:53:56 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter/callback?oauth_token=XhwN0gAAAAAA4Y-MAAABZ11jHso&oauth_verifier=WiBCNKfTa0E4618RHXHlHwImmOs9Yn8S" for 134.29.63.40 at 2018-11-29 02:53:57 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"XhwN0gAAAAAA4Y-MAAABZ11jHso", "oauth_verifier"=>"WiBCNKfTa0E4618RHXHlHwImmOs9Yn8S", "provider"=>"twitter"}
+  [1m[35m (0.2ms)[0m  SELECT "usergoers"."id" FROM "usergoers" WHERE "usergoers"."provider" = ? AND "usergoers"."uid" = ?  [["provider", "twitter"], ["uid", "3153990775"]]
+Redirected to https://fridgeteam-raphaelmnsu.c9users.io/fridges
+Completed 302 Found in 3ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/fridges" for 134.29.63.40 at 2018-11-29 02:53:57 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (3.8ms)
+Completed 200 OK in 50ms (Views: 30.6ms | ActiveRecord: 0.4ms | Solr: 0.0ms)
+
+
+Started GET "/countries" for 134.29.63.40 at 2018-11-29 02:54:00 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoryController#countries as HTML
+  Rendered category/countries.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 41ms (Views: 40.0ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/recipes?country=South+America" for 134.29.63.40 at 2018-11-29 02:54:03 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Parameters: {"country"=>"South America"}
+  [1m[36mRecipe Load (0.3ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."country" = ?[0m  [["country", "South America"]]
+  Rendered recipes/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 50ms (Views: 43.5ms | ActiveRecord: 1.0ms | Solr: 0.0ms)
+
+
+Started GET "/recipes?country=North+America" for 134.29.63.40 at 2018-11-29 02:54:08 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Parameters: {"country"=>"North America"}
+  [1m[35mRecipe Load (0.2ms)[0m  SELECT "recipes".* FROM "recipes" WHERE "recipes"."country" = ?  [["country", "North America"]]
+  Rendered recipes/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 41ms (Views: 40.0ms | ActiveRecord: 0.2ms | Solr: 0.0ms)
+
+
+Started GET "/recipes?country=Asia" for 134.29.63.40 at 2018-11-29 02:54:11 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Parameters: {"country"=>"Asia"}
+  [1m[36mRecipe Load (0.3ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."country" = ?[0m  [["country", "Asia"]]
+  Rendered recipes/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 53ms (Views: 50.9ms | ActiveRecord: 0.3ms | Solr: 0.0ms)
+
+
+Started GET "/recipes?country=North+America" for 134.29.63.40 at 2018-11-29 02:54:14 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Parameters: {"country"=>"North America"}
+  [1m[35mRecipe Load (0.2ms)[0m  SELECT "recipes".* FROM "recipes" WHERE "recipes"."country" = ?  [["country", "North America"]]
+  Rendered recipes/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.2ms | Solr: 0.0ms)
+
+
+Started GET "/recipes?country=Austrailia%2FOceania" for 134.29.63.40 at 2018-11-29 02:54:16 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Parameters: {"country"=>"Austrailia/Oceania"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."country" = ?[0m  [["country", "Austrailia/Oceania"]]
+  Rendered recipes/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 28ms (Views: 27.5ms | ActiveRecord: 0.2ms | Solr: 0.0ms)
+
+
+Started GET "/recipes?country=Africa" for 134.29.63.40 at 2018-11-29 02:54:22 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Parameters: {"country"=>"Africa"}
+  [1m[35mRecipe Load (0.2ms)[0m  SELECT "recipes".* FROM "recipes" WHERE "recipes"."country" = ?  [["country", "Africa"]]
+  Rendered recipes/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 32ms (Views: 31.1ms | ActiveRecord: 0.2ms | Solr: 0.0ms)
