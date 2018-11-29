@@ -19861,3 +19861,46 @@ OAuth::Unauthorized (403 Forbidden):
 Started GET "/assets/Frontbackgroud.jpg" for 134.29.64.252 at 2018-11-28 22:00:03 +0000
 Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 >>>>>>> 5340ba22a2187cd0188609602f09e75de9fd5190
+
+
+Started GET "/" for 134.29.63.40 at 2018-11-29 00:46:31 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 369ms (Views: 355.4ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 134.29.63.40 at 2018-11-29 00:46:32 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter" for 134.29.63.40 at 2018-11-29 00:46:34 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter" for 134.29.63.40 at 2018-11-29 00:46:35 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter/callback?oauth_token=YOXvKgAAAAAA4Y-MAAABZ1zuiCg&oauth_verifier=lzFpoxzAPM7qltwcAiIc6JN1loI8cbCe" for 134.29.63.40 at 2018-11-29 00:46:36 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"YOXvKgAAAAAA4Y-MAAABZ1zuiCg", "oauth_verifier"=>"lzFpoxzAPM7qltwcAiIc6JN1loI8cbCe", "provider"=>"twitter"}
+  [1m[35m (0.2ms)[0m  SELECT "usergoers"."id" FROM "usergoers" WHERE "usergoers"."provider" = ? AND "usergoers"."uid" = ?  [["provider", "twitter"], ["uid", "3153990775"]]
+Redirected to https://fridgeeee-raphaelmnsu.c9users.io/fridges
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/fridges" for 134.29.63.40 at 2018-11-29 00:46:36 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (5.4ms)
+Completed 200 OK in 53ms (Views: 31.4ms | ActiveRecord: 0.5ms | Solr: 0.0ms)
+
+
+Started GET "/profile" for 134.29.63.40 at 2018-11-29 00:46:39 +0000
+Cannot render console from 134.29.63.40! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#profile as HTML
+  Rendered profile/profile.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
