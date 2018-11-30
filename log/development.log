@@ -18667,3 +18667,682 @@ OAuth::Unauthorized (403 Forbidden):
 
 Started GET "/assets/Frontbackgroud.jpg" for 134.29.64.252 at 2018-11-28 22:00:03 +0000
 Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 134.29.64.252 at 2018-11-28 22:07:18 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 284ms (Views: 274.9ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 134.29.64.252 at 2018-11-28 22:07:19 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter" for 134.29.64.252 at 2018-11-28 22:07:22 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+OAuth::Unauthorized (403 Forbidden):
+  oauth (0.5.4) lib/oauth/consumer.rb:236:in `token_request'
+  oauth (0.5.4) lib/oauth/consumer.rb:155:in `get_request_token'
+  omniauth-oauth (1.1.0) lib/omniauth/strategies/oauth.rb:28:in `request_phase'
+  omniauth-twitter (1.4.0) lib/omniauth/strategies/twitter.rb:61:in `request_phase'
+  omniauth (1.8.1) lib/omniauth/strategy.rb:224:in `request_call'
+  omniauth (1.8.1) lib/omniauth/strategy.rb:187:in `call!'
+  omniauth (1.8.1) lib/omniauth/strategy.rb:168:in `call'
+  omniauth (1.8.1) lib/omniauth/builder.rb:63:in `call'
+  rack (1.6.10) lib/rack/etag.rb:24:in `call'
+  rack (1.6.10) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.10) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.10) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.10) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.10) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.10) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.10) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (34.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (62.5ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 134.29.64.252 at 2018-11-28 22:07:25 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 134.29.61.189 at 2018-11-29 15:12:48 +0000
+Cannot render console from 134.29.61.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (19.5ms)
+Completed 200 OK in 335ms (Views: 315.7ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/category.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 134.29.61.189 at 2018-11-29 15:12:49 +0000
+Cannot render console from 134.29.61.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/fridge.self-d66547b7a48c62c36559003da83a8ded9b2c989e127d60c8ee2ff24941e05a7f.css?body=1" for 134.29.61.189 at 2018-11-29 15:12:49 +0000
+Cannot render console from 134.29.61.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 134.29.61.189 at 2018-11-29 15:12:49 +0000
+Cannot render console from 134.29.61.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 134.29.61.189 at 2018-11-29 15:12:49 +0000
+Cannot render console from 134.29.61.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-bf76aa429ff1d0ca05c43922d8e0196229f045cdff5429848a44010bd5000ae7.css?body=1" for 134.29.61.189 at 2018-11-29 15:12:49 +0000
+Cannot render console from 134.29.61.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/recipe.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 134.29.61.189 at 2018-11-29 15:12:49 +0000
+Cannot render console from 134.29.61.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 134.29.61.189 at 2018-11-29 15:12:49 +0000
+Cannot render console from 134.29.61.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 134.29.61.189 at 2018-11-29 15:12:49 +0000
+Cannot render console from 134.29.61.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 134.29.61.189 at 2018-11-29 15:12:49 +0000
+Cannot render console from 134.29.61.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 134.29.61.189 at 2018-11-29 15:12:49 +0000
+Cannot render console from 134.29.61.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/category.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.61.189 at 2018-11-29 15:12:49 +0000
+Cannot render console from 134.29.61.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.61.189 at 2018-11-29 15:12:49 +0000
+Cannot render console from 134.29.61.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/fridge.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.61.189 at 2018-11-29 15:12:49 +0000
+Cannot render console from 134.29.61.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.61.189 at 2018-11-29 15:12:49 +0000
+Cannot render console from 134.29.61.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/recipe.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.61.189 at 2018-11-29 15:12:49 +0000
+Cannot render console from 134.29.61.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.61.189 at 2018-11-29 15:12:49 +0000
+Cannot render console from 134.29.61.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.61.189 at 2018-11-29 15:12:49 +0000
+Cannot render console from 134.29.61.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 134.29.61.189 at 2018-11-29 15:12:49 +0000
+Cannot render console from 134.29.61.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 134.29.61.189 at 2018-11-29 15:12:49 +0000
+Cannot render console from 134.29.61.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter" for 134.29.61.189 at 2018-11-29 15:12:54 +0000
+Cannot render console from 134.29.61.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter" for 134.29.61.189 at 2018-11-29 15:12:54 +0000
+Cannot render console from 134.29.61.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter/callback?oauth_token=BctybAAAAAAA4Y-MAAABZ2AHrTI&oauth_verifier=VKSXrIksTSnuL6KtF5zzmX45lSutDOpb" for 134.29.61.189 at 2018-11-29 15:13:03 +0000
+Cannot render console from 134.29.61.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"BctybAAAAAAA4Y-MAAABZ2AHrTI", "oauth_verifier"=>"VKSXrIksTSnuL6KtF5zzmX45lSutDOpb", "provider"=>"twitter"}
+  [1m[35m (0.3ms)[0m  SELECT "usergoers"."id" FROM "usergoers" WHERE "usergoers"."provider" = ? AND "usergoers"."uid" = ?  [["provider", "twitter"], ["uid", "844667682800709633"]]
+Redirected to https://wimf-484-taniahsnpr.c9users.io/fridges
+Completed 302 Found in 7ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/fridges" for 134.29.61.189 at 2018-11-29 15:13:03 +0000
+Cannot render console from 134.29.61.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (4.9ms)
+Completed 200 OK in 53ms (Views: 28.3ms | ActiveRecord: 0.5ms | Solr: 0.0ms)
+
+
+Started GET "/fridges" for 134.29.61.189 at 2018-11-29 15:13:11 +0000
+Cannot render console from 134.29.61.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.7ms)
+Completed 200 OK in 54ms (Views: 53.1ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/countries" for 134.29.61.189 at 2018-11-29 15:13:13 +0000
+Cannot render console from 134.29.61.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoryController#countries as HTML
+  Rendered category/countries.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 68ms (Views: 66.2ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/recipes?country=South+America" for 134.29.61.189 at 2018-11-29 15:13:14 +0000
+Cannot render console from 134.29.61.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Parameters: {"country"=>"South America"}
+  [1m[36mRecipe Load (0.4ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."country" = ?[0m  [["country", "South America"]]
+  Rendered recipes/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 82ms (Views: 67.9ms | ActiveRecord: 0.7ms | Solr: 0.0ms)
+
+
+Started GET "/profile" for 134.29.61.189 at 2018-11-29 15:13:16 +0000
+Cannot render console from 134.29.61.189! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#profile as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+ActionView::MissingTemplate (Missing template main/profile, application/profile with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :haml, :jbuilder]}. Searched in:
+  * "/home/ubuntu/workspace/whats-in-my-fridge/app/views"
+):
+  actionview (4.2.10) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.10) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.10) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.10) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.10) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.10) lib/action_view/renderer/renderer.rb:46:in `render_template'
+  actionview (4.2.10) lib/action_view/renderer/renderer.rb:27:in `render'
+  actionview (4.2.10) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.10) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.10) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.10) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.10) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.10) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.10) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.10) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.10) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/benchmark.rb:308:in `realtime'
+  activesupport (4.2.10) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.10) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.10) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.10) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  sunspot_rails (2.3.0) lib/sunspot/rails/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+  actionpack (4.2.10) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.10) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.10) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.10) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.10) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.10) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.10) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.10) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.10) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.10) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.10) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.10) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.10) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.10) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.10) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.10) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.10) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.10) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.10) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.10) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  omniauth (1.8.1) lib/omniauth/strategy.rb:190:in `call!'
+  omniauth (1.8.1) lib/omniauth/strategy.rb:168:in `call'
+  omniauth (1.8.1) lib/omniauth/builder.rb:63:in `call'
+  rack (1.6.10) lib/rack/etag.rb:24:in `call'
+  rack (1.6.10) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.10) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.10) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.10) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.10) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.10) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.10) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (47.7ms)
+
+
+Started GET "/" for 134.29.63.158 at 2018-11-30 20:40:03 +0000
+Cannot render console from 134.29.63.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 338ms (Views: 324.4ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/fridge.self-d66547b7a48c62c36559003da83a8ded9b2c989e127d60c8ee2ff24941e05a7f.css?body=1" for 134.29.63.158 at 2018-11-30 20:40:04 +0000
+Cannot render console from 134.29.63.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/category.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.63.158 at 2018-11-30 20:40:04 +0000
+Cannot render console from 134.29.63.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 134.29.63.158 at 2018-11-30 20:40:04 +0000
+Cannot render console from 134.29.63.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 134.29.63.158 at 2018-11-30 20:40:04 +0000
+Cannot render console from 134.29.63.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-bf76aa429ff1d0ca05c43922d8e0196229f045cdff5429848a44010bd5000ae7.css?body=1" for 134.29.63.158 at 2018-11-30 20:40:04 +0000
+Cannot render console from 134.29.63.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 134.29.63.158 at 2018-11-30 20:40:04 +0000
+Cannot render console from 134.29.63.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/recipe.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 134.29.63.158 at 2018-11-30 20:40:04 +0000
+Cannot render console from 134.29.63.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/fridge.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.63.158 at 2018-11-30 20:40:04 +0000
+Cannot render console from 134.29.63.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.63.158 at 2018-11-30 20:40:04 +0000
+Cannot render console from 134.29.63.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.63.158 at 2018-11-30 20:40:04 +0000
+Cannot render console from 134.29.63.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.63.158 at 2018-11-30 20:40:04 +0000
+Cannot render console from 134.29.63.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.63.158 at 2018-11-30 20:40:04 +0000
+Cannot render console from 134.29.63.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 134.29.63.158 at 2018-11-30 20:40:05 +0000
+Cannot render console from 134.29.63.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/recipe.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 134.29.63.158 at 2018-11-30 20:40:05 +0000
+Cannot render console from 134.29.63.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 134.29.63.158 at 2018-11-30 20:40:05 +0000
+Cannot render console from 134.29.63.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter" for 134.29.63.158 at 2018-11-30 20:40:07 +0000
+Cannot render console from 134.29.63.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter" for 134.29.63.158 at 2018-11-30 20:40:07 +0000
+Cannot render console from 134.29.63.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter/callback?oauth_token=VBaerAAAAAAA4Y-MAAABZ2ZZm8g&oauth_verifier=LPv1cFeCvgGhnD02YH2l7loC6bMd8ixb" for 134.29.63.158 at 2018-11-30 20:40:19 +0000
+Cannot render console from 134.29.63.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"VBaerAAAAAAA4Y-MAAABZ2ZZm8g", "oauth_verifier"=>"LPv1cFeCvgGhnD02YH2l7loC6bMd8ixb", "provider"=>"twitter"}
+  [1m[35m (0.4ms)[0m  SELECT "usergoers"."id" FROM "usergoers" WHERE "usergoers"."provider" = ? AND "usergoers"."uid" = ?  [["provider", "twitter"], ["uid", "844667682800709633"]]
+Redirected to https://wimf-484-taniahsnpr.c9users.io/fridges
+Completed 302 Found in 10ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/fridges" for 134.29.63.158 at 2018-11-30 20:40:21 +0000
+Cannot render console from 134.29.63.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (5.2ms)
+Completed 200 OK in 60ms (Views: 34.3ms | ActiveRecord: 0.4ms | Solr: 0.0ms)
+
+
+Started GET "/" for 134.29.64.252 at 2018-11-30 21:16:30 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 333ms (Views: 322.7ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 134.29.64.252 at 2018-11-30 21:16:30 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter" for 134.29.64.252 at 2018-11-30 21:16:32 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter" for 134.29.64.252 at 2018-11-30 21:16:33 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter/callback?oauth_token=VadOkgAAAAAA4Y-MAAABZ2Z69Hs&oauth_verifier=JVHj4oDH80qTPAjQyGH5IMGOslxv6zmI" for 134.29.64.252 at 2018-11-30 21:16:33 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"VadOkgAAAAAA4Y-MAAABZ2Z69Hs", "oauth_verifier"=>"JVHj4oDH80qTPAjQyGH5IMGOslxv6zmI", "provider"=>"twitter"}
+  [1m[35m (0.3ms)[0m  SELECT "usergoers"."id" FROM "usergoers" WHERE "usergoers"."provider" = ? AND "usergoers"."uid" = ?  [["provider", "twitter"], ["uid", "844667682800709633"]]
+Redirected to https://wimf-484-taniahsnpr.c9users.io/fridges
+Completed 302 Found in 5ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/fridges" for 134.29.64.252 at 2018-11-30 21:16:34 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (5.1ms)
+Completed 200 OK in 87ms (Views: 63.1ms | ActiveRecord: 0.5ms | Solr: 0.0ms)
+
+
+Started GET "/fridges" for 134.29.64.252 at 2018-11-30 21:17:20 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (13.2ms)
+Completed 200 OK in 81ms (Views: 80.1ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/fridges" for 134.29.64.252 at 2018-11-30 21:25:07 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (2.8ms)
+Completed 200 OK in 160ms (Views: 158.8ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/main.self-d2d1d46a3f1646ab6ef4fcd170460dbc61deb05e52d812ebe2111071c8a0652d.css?body=1" for 134.29.64.252 at 2018-11-30 21:25:08 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/fridges" for 134.29.64.252 at 2018-11-30 21:25:36 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.8ms)
+Completed 200 OK in 131ms (Views: 130.2ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/main.self-88ae3e8ff86baa7256284867cd3041b7916b7fc911b93102d07512d26cc9203d.css?body=1" for 134.29.64.252 at 2018-11-30 21:25:36 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/fridges" for 134.29.64.252 at 2018-11-30 21:26:04 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (10.2ms)
+Completed 200 OK in 62ms (Views: 61.2ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/fridges" for 134.29.64.252 at 2018-11-30 21:26:23 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.8ms)
+Completed 200 OK in 55ms (Views: 54.6ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/main.self-434672e871d5e99ee4249a2dec0eeb7be9b560b579f58b4448660d77b2343496.css?body=1" for 134.29.64.252 at 2018-11-30 21:26:23 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/fridges" for 134.29.64.252 at 2018-11-30 21:26:31 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.9ms)
+Completed 200 OK in 47ms (Views: 46.1ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/main.self-c7feaaa3590407863dcbc6b4f83cc7b5f886af95cbcc9210d09bdaa46202bb40.css?body=1" for 134.29.64.252 at 2018-11-30 21:26:31 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/fridges" for 134.29.64.252 at 2018-11-30 21:26:50 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.8ms)
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/main.self-74b8a8587ed385083575558626638f83a6a02feef589fd1b0dcc146fb57dd4bd.css?body=1" for 134.29.64.252 at 2018-11-30 21:26:50 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/fridges" for 134.29.64.252 at 2018-11-30 21:27:02 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (1.0ms)
+Completed 200 OK in 47ms (Views: 46.3ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/main.self-d77fb80b2f43ea345b81e8e05f28dde0a6821c9630c5e4b4917ab95aa86dac06.css?body=1" for 134.29.64.252 at 2018-11-30 21:27:02 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/fridges" for 134.29.64.252 at 2018-11-30 21:27:10 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.8ms)
+Completed 200 OK in 64ms (Views: 63.3ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/main.self-da78dd6b169bf710f024ffe92fe36adb07e27e0516f41e45e9dcf7b3dcf6d30a.css?body=1" for 134.29.64.252 at 2018-11-30 21:27:10 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/fridges" for 134.29.64.252 at 2018-11-30 21:27:42 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (1.0ms)
+Completed 200 OK in 50ms (Views: 49.4ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/main.self-53c881d7907ff0b209c4d87fe92ca2b28a98f765131ab9bd27afac9f755ea1cc.css?body=1" for 134.29.64.252 at 2018-11-30 21:27:42 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/fridges" for 134.29.64.252 at 2018-11-30 21:27:52 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.9ms)
+Completed 200 OK in 117ms (Views: 116.6ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/main.self-6a60912b556530eb986db286061a0ecd7c7a85f9f3a8172b03207dcd1a26e809.css?body=1" for 134.29.64.252 at 2018-11-30 21:27:52 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/fridges" for 134.29.64.252 at 2018-11-30 21:28:02 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.7ms)
+Completed 200 OK in 46ms (Views: 45.3ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/main.self-ac6754b94ec96ef598fca497626e97c811a05c5c565c1ff28f11388897c94ed0.css?body=1" for 134.29.64.252 at 2018-11-30 21:28:02 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/fridges" for 134.29.64.252 at 2018-11-30 21:28:56 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.9ms)
+Completed 200 OK in 70ms (Views: 69.1ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/main.self-42fd81fdb29afc9af385781cd8ede2f3ba035bc5308b747f35d3e89f3c49996a.css?body=1" for 134.29.64.252 at 2018-11-30 21:28:56 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/fridges" for 134.29.64.252 at 2018-11-30 21:29:19 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.7ms)
+Completed 200 OK in 45ms (Views: 44.0ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/main.self-4ae559cdb24028f8749cfe4c7cfd0d969a7bb374a96e91a8445cef5f0d6d78ba.css?body=1" for 134.29.64.252 at 2018-11-30 21:29:19 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/fridges" for 134.29.64.252 at 2018-11-30 21:29:39 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.8ms)
+Completed 200 OK in 49ms (Views: 48.4ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/main.self-9eb5790afb2710e37a11ef574826d0b4a523475d1409992ec3af39ceaf895aca.css?body=1" for 134.29.64.252 at 2018-11-30 21:29:39 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/fridges" for 134.29.64.252 at 2018-11-30 21:29:55 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.9ms)
+Completed 200 OK in 52ms (Views: 50.7ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/main.self-b002714cad3171318b1164fa17e75d5a7531e251dfa10471fe46f6190a465d27.css?body=1" for 134.29.64.252 at 2018-11-30 21:29:55 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/fridges" for 134.29.64.252 at 2018-11-30 21:30:27 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.9ms)
+Completed 200 OK in 48ms (Views: 47.0ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/main.self-9607bfd8ea8edcd4f59e21a1d885f92e6c8522ef12bd932ab8fb991a3da7f265.css?body=1" for 134.29.64.252 at 2018-11-30 21:30:27 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/fridges" for 134.29.64.252 at 2018-11-30 21:38:38 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (1.0ms)
+Completed 200 OK in 58ms (Views: 56.8ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/main.self-6c4020e4abc93459dbe4c28ac9aa93b32d16cf1bb2ba07b4328d3346b949c6d3.css?body=1" for 134.29.64.252 at 2018-11-30 21:38:38 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/fridges" for 134.29.64.252 at 2018-11-30 21:39:23 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.9ms)
+Completed 200 OK in 51ms (Views: 50.2ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/main.self-9c245fec2db454a4968e504f5b626b97e03a9431b9623f773f9ba29c57d65348.css?body=1" for 134.29.64.252 at 2018-11-30 21:39:23 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/fridges" for 134.29.64.252 at 2018-11-30 21:41:11 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.9ms)
+Completed 200 OK in 63ms (Views: 61.6ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/main.self-2693925eb4ff9d273101bfe4e06dc88b3624ee4dd99f9c6f5c4d4662c774fe2b.css?body=1" for 134.29.64.252 at 2018-11-30 21:41:12 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/fridges" for 134.29.64.252 at 2018-11-30 21:43:35 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (1.1ms)
+Completed 200 OK in 59ms (Views: 58.2ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/main.self-9da0f9efefed820b00b48b06eae6e033769b12825ff1b6b950d41763714c155a.css?body=1" for 134.29.64.252 at 2018-11-30 21:43:36 +0000
+Cannot render console from 134.29.64.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
