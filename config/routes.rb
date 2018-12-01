@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   get 'main/main'
 
   get 'profile/new'
@@ -34,7 +35,7 @@ Rails.application.routes.draw do
   get 'auth/failure' => 'sessions#failure'
   get 'auth/twitter', :as => 'login'
 
-
+  get '/logout' => 'sessions#destroy'
   get '/login' => 'sessions#login'
   
   get 'main/search' => "main#search"

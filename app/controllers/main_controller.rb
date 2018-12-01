@@ -2,7 +2,7 @@ class MainController < ApplicationController
   
   
   def main
-    redirect_to '/main'
+    redirect_to '/'
   end
   
   #def main
