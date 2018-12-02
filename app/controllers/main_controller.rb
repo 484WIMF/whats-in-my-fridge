@@ -35,6 +35,6 @@ class MainController < ApplicationController
     recipe.rate = params[:rate]
     recipe.save
     
-    redirect_to '/main'
+    redirect_to '/countries'
   end
 end

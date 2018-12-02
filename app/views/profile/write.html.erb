@@ -1,16 +1,15 @@
 <h>Add profile</h>
 <br>
-<form action="/create" method="post">
-    Name: <input type="text" name="menu"><br>
-    Age: <input type="text" name="ingredient"><br>
+<form action="/profile/create" method="post">
+    Name: <input type="text" name="username"><br>
     Gender:
-    <select>
+    <select type="text" name="usergender">
         <option value="Male">Male</option>
         <option value="Female">Female</option>
     </select>
     <br>
     country:
-    <select>
+    <select type="text" name="country">
         <option value="Africa">Africa</option>
         <option value="Asia">Asia</option>
         <option value="Austrailia/Oceania">Austrailia/Oceania</option>
@@ -19,7 +18,7 @@
         <option value="Europe">Europe</option>
     </select><br>
     preference:
-    <select>
+    <select type="name" name="preference">
         <option value="Sweet">Sweet</option>
         <option value="Spicy">Spicey</option>
         <option value="Salty">Salty</option>

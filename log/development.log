@@ -3439,3 +3439,1870 @@ Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.
 Processing by ProfileController#profile as HTML
   Rendered profile/profile.html.erb within layouts/application (0.7ms)
 Completed 200 OK in 45ms (Views: 44.6ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-12-02 01:21:23 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (16.0ms)
+Completed 200 OK in 432ms (Views: 386.8ms | ActiveRecord: 0.8ms | Solr: 0.0ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-12-02 01:21:25 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 39ms (Views: 37.9ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/aboutus" for 71.87.113.148 at 2018-12-02 01:21:27 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#aboutus as HTML
+  Rendered home/aboutus.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 46ms (Views: 45.4ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/contactus" for 71.87.113.148 at 2018-12-02 01:21:29 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#contactus as HTML
+  Rendered home/contactus.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 34ms (Views: 33.1ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/users/sign_in" for 71.87.113.148 at 2018-12-02 01:21:31 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Redirected to https://whatsinmyfridge-sunkyong9768.c9users.io/fridges
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-12-02 01:21:31 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.9ms)
+Completed 200 OK in 28ms (Views: 27.4ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/users/sign_out" for 71.87.113.148 at 2018-12-02 01:21:38 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to https://whatsinmyfridge-sunkyong9768.c9users.io/
+Completed 302 Found in 7ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-12-02 01:21:38 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/users/sign_in" for 71.87.113.148 at 2018-12-02 01:21:40 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (25.9ms)
+Completed 200 OK in 83ms (Views: 77.4ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-12-02 01:21:48 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.5ms)
+Completed 200 OK in 24ms (Views: 23.6ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/users/sign_out" for 71.87.113.148 at 2018-12-02 01:21:50 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+Redirected to https://whatsinmyfridge-sunkyong9768.c9users.io/
+Filter chain halted as :verify_signed_out_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-12-02 01:21:50 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 29ms (Views: 28.4ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/users/sign_in" for 71.87.113.148 at 2018-12-02 01:21:52 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started POST "/users/sign_in" for 71.87.113.148 at 2018-12-02 01:22:29 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EtYlDli3DD9FXokjb/ubgmaVjtyh/eAurcHZwcoMMvOENdFjwFbs15Xf22woc4Kafr6zgkEoJHC8fZbdsPMtwA==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EtYlDli3DD9FXokjb/ubgmaVjtyh/eAurcHZwcoMMvOENdFjwFbs15Xf22woc4Kafr6zgkEoJHC8fZbdsPMtwA==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered devise/shared/_links.html.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 43ms (Views: 41.2ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/auth/twitter" for 71.87.113.148 at 2018-12-02 01:22:30 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter" for 71.87.113.148 at 2018-12-02 01:22:31 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter/callback?oauth_token=Ot8DLwAAAAAA4Y-MAAABZ2yCgqo&oauth_verifier=b9ee3BOovPXoglmINmvK5s9qmAIibE52" for 71.87.113.148 at 2018-12-02 01:22:33 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"Ot8DLwAAAAAA4Y-MAAABZ2yCgqo", "oauth_verifier"=>"b9ee3BOovPXoglmINmvK5s9qmAIibE52", "provider"=>"twitter"}
+  [1m[35m (0.3ms)[0m  SELECT "usergoers"."id" FROM "usergoers" WHERE "usergoers"."provider" = ? AND "usergoers"."uid" = ?  [["provider", "twitter"], ["uid", "960973551070273536"]]
+Redirected to https://whatsinmyfridge-sunkyong9768.c9users.io/fridges
+Completed 302 Found in 4ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-12-02 01:22:34 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.6ms)
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/users/sign_out" for 71.87.113.148 at 2018-12-02 01:22:35 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+Redirected to https://whatsinmyfridge-sunkyong9768.c9users.io/
+Filter chain halted as :verify_signed_out_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-12-02 01:22:35 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 24ms (Views: 23.2ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/users/sign_in" for 71.87.113.148 at 2018-12-02 01:22:37 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 40ms (Views: 39.0ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started POST "/users/sign_in" for 71.87.113.148 at 2018-12-02 01:22:41 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kN8xk/WBpgXo00d5xD6KQF9TOnSoutyAxRq0olhFe0IGPMX+bWBG7ThSFTaDtpNYR3gHKkhvGN7Upvu+IrpkcQ==", "user"=>{"email"=>"sunkyong9768@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "sunkyong9768@gmail.com"]]
+Redirected to https://whatsinmyfridge-sunkyong9768.c9users.io/fridges
+Completed 302 Found in 174ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-12-02 01:22:42 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.4ms)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/profile" for 71.87.113.148 at 2018-12-02 01:22:56 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#profile as HTML
+  Rendered profile/profile.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 28ms (Views: 27.4ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/profile/write" for 71.87.113.148 at 2018-12-02 01:22:57 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#write as HTML
+  Rendered profile/write.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/countries" for 71.87.113.148 at 2018-12-02 01:23:51 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoryController#countries as HTML
+  Rendered category/countries.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 47ms (Views: 46.5ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/recipes?country=Africa" for 71.87.113.148 at 2018-12-02 01:23:52 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Parameters: {"country"=>"Africa"}
+  [1m[35mRecipe Load (0.6ms)[0m  SELECT "recipes".* FROM "recipes" WHERE "recipes"."country" = ?  [["country", "Africa"]]
+  Rendered recipes/index.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 73ms (Views: 61.1ms | ActiveRecord: 1.1ms | Solr: 0.0ms)
+
+
+Started GET "/recipes?country=North+America" for 71.87.113.148 at 2018-12-02 01:23:54 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Parameters: {"country"=>"North America"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."country" = ?[0m  [["country", "North America"]]
+  Rendered recipes/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 28ms (Views: 26.9ms | ActiveRecord: 0.2ms | Solr: 0.0ms)
+
+
+Started GET "/recipes?country=Austrailia%2FOceania" for 71.87.113.148 at 2018-12-02 01:23:56 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Parameters: {"country"=>"Austrailia/Oceania"}
+  [1m[35mRecipe Load (0.2ms)[0m  SELECT "recipes".* FROM "recipes" WHERE "recipes"."country" = ?  [["country", "Austrailia/Oceania"]]
+  Rendered recipes/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 28ms (Views: 27.1ms | ActiveRecord: 0.2ms | Solr: 0.0ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-12-02 01:25:15 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.5ms)
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-12-02 01:25:17 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.6ms)
+Completed 200 OK in 25ms (Views: 24.5ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-12-02 01:25:18 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.6ms)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/users/sign_in" for 71.87.113.148 at 2018-12-02 01:28:11 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Redirected to https://whatsinmyfridge-sunkyong9768.c9users.io/fridges
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-12-02 01:28:15 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.5ms)
+Completed 200 OK in 26ms (Views: 24.7ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/users/sign_in" for 71.87.113.148 at 2018-12-02 01:29:30 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Redirected to https://whatsinmyfridge-sunkyong9768.c9users.io/fridges
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-12-02 01:29:30 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.5ms)
+Completed 200 OK in 26ms (Views: 25.1ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/profile" for 71.87.113.148 at 2018-12-02 01:29:42 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#profile as HTML
+  Rendered profile/profile.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 29ms (Views: 27.6ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-12-02 01:33:01 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (1.0ms)
+Completed 200 OK in 41ms (Views: 39.3ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-12-02 01:33:31 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (4.9ms)
+Completed 200 OK in 44ms (Views: 42.6ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/countries" for 71.87.113.148 at 2018-12-02 01:33:41 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoryController#countries as HTML
+  Rendered category/countries.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 25ms (Views: 24.7ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/recipes?country=Africa" for 71.87.113.148 at 2018-12-02 01:33:43 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Parameters: {"country"=>"Africa"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."country" = ?[0m  [["country", "Africa"]]
+  Rendered recipes/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 27ms (Views: 25.4ms | ActiveRecord: 0.2ms | Solr: 0.0ms)
+
+
+Started GET "/recipes/search?utf8=%E2%9C%93&query=garlic&commit=Search" for 71.87.113.148 at 2018-12-02 01:33:45 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#search as HTML
+  Parameters: {"utf8"=>"✓", "query"=>"garlic", "commit"=>"Search"}
+  [1m[32mSOLR Request (14.8ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:Recipe"][0m, q: [1m[1m"garlic"[0m, fl: [1m[1m"* score"[0m, qf: [1m[1m"ingredient_text"[0m, defType: [1m[1m"edismax"[0m, start: [1m[1m0[0m, rows: [1m[1m30[0m} ]
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+RSolr::Error::ConnectionRefused (Connection refused - {:data=>"fq=type%3ARecipe&q=garlic&fl=*+score&qf=ingredient_text&defType=edismax&start=0&rows=30", :method=>:post, :params=>{:wt=>:json}, :query=>"wt=json", :headers=>{"Content-Type"=>"application/x-www-form-urlencoded; charset=UTF-8"}, :path=>"select", :uri=>#<URI::HTTP http://localhost:8982/solr/default/select?wt=json>}):
+  app/controllers/recipes_controller.rb:12:in `search'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (37.9ms)
+
+
+Started GET "/countries" for 71.87.113.148 at 2018-12-02 01:34:07 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoryController#countries as HTML
+  Rendered category/countries.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 37ms (Views: 35.4ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/recipes?country=Africa" for 71.87.113.148 at 2018-12-02 01:34:10 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Parameters: {"country"=>"Africa"}
+  [1m[35mRecipe Load (0.3ms)[0m  SELECT "recipes".* FROM "recipes" WHERE "recipes"."country" = ?  [["country", "Africa"]]
+  Rendered recipes/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 40ms (Views: 38.6ms | ActiveRecord: 0.3ms | Solr: 0.0ms)
+
+
+Started GET "/write" for 71.87.113.148 at 2018-12-02 01:34:12 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#write as HTML
+  Rendered main/write.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 35ms (Views: 34.3ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/recipes?country=Africa" for 71.87.113.148 at 2018-12-02 01:35:27 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Parameters: {"country"=>"Africa"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."country" = ?[0m  [["country", "Africa"]]
+  Rendered recipes/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 26ms (Views: 25.1ms | ActiveRecord: 0.2ms | Solr: 0.0ms)
+
+
+Started GET "/write" for 71.87.113.148 at 2018-12-02 01:35:29 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#write as HTML
+  Rendered main/write.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 27ms (Views: 25.9ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/countries" for 71.87.113.148 at 2018-12-02 01:35:33 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoryController#countries as HTML
+  Rendered category/countries.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 27ms (Views: 26.6ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/recipes?country=Austrailia%2FOceania" for 71.87.113.148 at 2018-12-02 01:35:34 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Parameters: {"country"=>"Austrailia/Oceania"}
+  [1m[35mRecipe Load (0.3ms)[0m  SELECT "recipes".* FROM "recipes" WHERE "recipes"."country" = ?  [["country", "Austrailia/Oceania"]]
+  Rendered recipes/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.3ms | Solr: 0.0ms)
+
+
+Started GET "/recipes?country=Africa" for 71.87.113.148 at 2018-12-02 01:37:47 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Parameters: {"country"=>"Africa"}
+  [1m[36mRecipe Load (0.3ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."country" = ?[0m  [["country", "Africa"]]
+  Rendered recipes/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 32ms (Views: 30.2ms | ActiveRecord: 0.3ms | Solr: 0.0ms)
+
+
+Started GET "/recipes?country=Africa" for 71.87.113.148 at 2018-12-02 01:39:03 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Parameters: {"country"=>"Africa"}
+  [1m[35mRecipe Load (0.2ms)[0m  SELECT "recipes".* FROM "recipes" WHERE "recipes"."country" = ?  [["country", "Africa"]]
+  Rendered recipes/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 31ms (Views: 29.9ms | ActiveRecord: 0.2ms | Solr: 0.0ms)
+
+
+Started GET "/profile" for 71.87.113.148 at 2018-12-02 01:39:18 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#profile as HTML
+  Rendered profile/profile.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/profile/write" for 71.87.113.148 at 2018-12-02 01:39:19 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#write as HTML
+  Rendered profile/write.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/profile/write" for 71.87.113.148 at 2018-12-02 01:39:28 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#write as HTML
+  Rendered profile/write.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/profile/write" for 71.87.113.148 at 2018-12-02 01:42:32 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#write as HTML
+  Rendered profile/write.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 28ms (Views: 27.5ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/profile" for 71.87.113.148 at 2018-12-02 01:42:55 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#profile as HTML
+  Rendered profile/profile.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 26ms (Views: 24.7ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/recipes?country=Africa" for 71.87.113.148 at 2018-12-02 01:42:56 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Parameters: {"country"=>"Africa"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."country" = ?[0m  [["country", "Africa"]]
+  Rendered recipes/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 31ms (Views: 30.2ms | ActiveRecord: 0.2ms | Solr: 0.0ms)
+
+
+Started GET "/countries" for 71.87.113.148 at 2018-12-02 01:43:01 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoryController#countries as HTML
+  Rendered category/countries.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-12-02 01:43:02 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-12-02 01:43:02 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 39ms (Views: 38.4ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-12-02 01:43:06 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 26ms (Views: 25.1ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/users/sign_in" for 71.87.113.148 at 2018-12-02 01:43:08 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Redirected to https://whatsinmyfridge-sunkyong9768.c9users.io/fridges
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-12-02 01:43:08 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 118ms (Views: 117.7ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/users/sign_out" for 71.87.113.148 at 2018-12-02 01:43:09 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to https://whatsinmyfridge-sunkyong9768.c9users.io/
+Completed 302 Found in 6ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-12-02 01:43:09 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 34ms (Views: 32.7ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/users/sign_in" for 71.87.113.148 at 2018-12-02 01:43:10 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 36ms (Views: 33.8ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started POST "/users/sign_in" for 71.87.113.148 at 2018-12-02 01:43:20 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3JlEvFJrbwcDWXAWuf8PpiakWM8VMAw5B00SnmyD2ycRvtis25R/a+k7a+Zr/JJ9dsahZvhrhnh+0NKVemtvKw==", "user"=>{"email"=>"sunkyong9768@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "sunkyong9768@gmail.com"]]
+Redirected to https://whatsinmyfridge-sunkyong9768.c9users.io/fridges
+Completed 302 Found in 146ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-12-02 01:43:20 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 28ms (Views: 26.7ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/profile" for 71.87.113.148 at 2018-12-02 01:43:23 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#profile as HTML
+  Rendered profile/profile.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/profile/write" for 71.87.113.148 at 2018-12-02 01:43:27 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#write as HTML
+  Rendered profile/write.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 35ms (Views: 34.3ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started POST "/create" for 71.87.113.148 at 2018-12-02 01:43:42 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#create as HTML
+  Parameters: {"menu"=>"sunkyeong", "country"=>"Asia"}
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms)
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  actionpack (4.2.10) lib/action_controller/metal/request_forgery_protection.rb:181:in `handle_unverified_request'
+  actionpack (4.2.10) lib/action_controller/metal/request_forgery_protection.rb:209:in `handle_unverified_request'
+  devise (4.5.0) lib/devise/controllers/helpers.rb:255:in `handle_unverified_request'
+  actionpack (4.2.10) lib/action_controller/metal/request_forgery_protection.rb:204:in `verify_authenticity_token'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:432:in `block in make_lambda'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:164:in `block in halting'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:504:in `block in call'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:504:in `each'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:504:in `call'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.10) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.10) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.10) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.10) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.10) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.10) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.10) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.10) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.10) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.10) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.10) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.10) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.10) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.10) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  omniauth (1.8.1) lib/omniauth/strategy.rb:190:in `call!'
+  omniauth (1.8.1) lib/omniauth/strategy.rb:168:in `call'
+  omniauth (1.8.1) lib/omniauth/builder.rb:63:in `call'
+  warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+  warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+  warden (1.2.7) lib/warden/manager.rb:35:in `call'
+  rack (1.6.10) lib/rack/etag.rb:24:in `call'
+  rack (1.6.10) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.10) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.10) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.10) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.10) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.10) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.10) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (40.0ms)
+
+
+Started POST "/create" for 71.87.113.148 at 2018-12-02 02:31:07 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#create as HTML
+  Parameters: {"menu"=>"sunkyeong", "country"=>"Asia"}
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms)
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  actionpack (4.2.10) lib/action_controller/metal/request_forgery_protection.rb:181:in `handle_unverified_request'
+  actionpack (4.2.10) lib/action_controller/metal/request_forgery_protection.rb:209:in `handle_unverified_request'
+  devise (4.5.0) lib/devise/controllers/helpers.rb:255:in `handle_unverified_request'
+  actionpack (4.2.10) lib/action_controller/metal/request_forgery_protection.rb:204:in `verify_authenticity_token'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:432:in `block in make_lambda'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:164:in `block in halting'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:504:in `block in call'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:504:in `each'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:504:in `call'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.10) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.10) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.10) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.10) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.10) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.10) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.10) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.10) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.10) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.10) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.10) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.10) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.10) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.10) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  omniauth (1.8.1) lib/omniauth/strategy.rb:190:in `call!'
+  omniauth (1.8.1) lib/omniauth/strategy.rb:168:in `call'
+  omniauth (1.8.1) lib/omniauth/builder.rb:63:in `call'
+  warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+  warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+  warden (1.2.7) lib/warden/manager.rb:35:in `call'
+  rack (1.6.10) lib/rack/etag.rb:24:in `call'
+  rack (1.6.10) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.10) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.10) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.10) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.10) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.10) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.10) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (38.8ms)
+
+
+Started GET "/profile/write" for 71.87.113.148 at 2018-12-02 02:31:51 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#write as HTML
+  Rendered profile/write.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 48ms (Views: 47.0ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started POST "/create" for 71.87.113.148 at 2018-12-02 02:32:10 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#create as HTML
+  Parameters: {"username"=>"sunkyeong", "usergender"=>"Female", "country"=>"Asia", "preference"=>"Spicy"}
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms)
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  actionpack (4.2.10) lib/action_controller/metal/request_forgery_protection.rb:181:in `handle_unverified_request'
+  actionpack (4.2.10) lib/action_controller/metal/request_forgery_protection.rb:209:in `handle_unverified_request'
+  devise (4.5.0) lib/devise/controllers/helpers.rb:255:in `handle_unverified_request'
+  actionpack (4.2.10) lib/action_controller/metal/request_forgery_protection.rb:204:in `verify_authenticity_token'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:432:in `block in make_lambda'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:164:in `block in halting'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:504:in `block in call'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:504:in `each'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:504:in `call'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.10) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.10) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.10) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.10) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.10) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.10) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.10) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.10) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.10) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.10) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.10) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.10) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.10) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.10) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  omniauth (1.8.1) lib/omniauth/strategy.rb:190:in `call!'
+  omniauth (1.8.1) lib/omniauth/strategy.rb:168:in `call'
+  omniauth (1.8.1) lib/omniauth/builder.rb:63:in `call'
+  warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+  warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+  warden (1.2.7) lib/warden/manager.rb:35:in `call'
+  rack (1.6.10) lib/rack/etag.rb:24:in `call'
+  rack (1.6.10) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.10) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.10) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.10) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.10) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.10) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.10) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (35.6ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-12-02 02:37:08 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 41ms (Views: 33.0ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/users/sign_in" for 71.87.113.148 at 2018-12-02 02:37:09 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Redirected to https://whatsinmyfridge-sunkyong9768.c9users.io/fridges
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-12-02 02:37:09 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 71ms (Views: 52.4ms | ActiveRecord: 0.7ms | Solr: 0.0ms)
+
+
+Started GET "/countries" for 71.87.113.148 at 2018-12-02 02:37:11 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoryController#countries as HTML
+  Rendered category/countries.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 32ms (Views: 31.5ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/recipes?country=Africa" for 71.87.113.148 at 2018-12-02 02:37:12 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Parameters: {"country"=>"Africa"}
+  [1m[35mRecipe Load (0.5ms)[0m  SELECT "recipes".* FROM "recipes" WHERE "recipes"."country" = ?  [["country", "Africa"]]
+  Rendered recipes/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 45ms (Views: 36.9ms | ActiveRecord: 0.9ms | Solr: 0.0ms)
+
+
+Started GET "/write" for 71.87.113.148 at 2018-12-02 02:37:14 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#write as HTML
+  Rendered main/write.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 34ms (Views: 33.1ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-12-02 02:37:22 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 27ms (Views: 25.8ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/profile" for 71.87.113.148 at 2018-12-02 02:37:23 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#profile as HTML
+  Rendered profile/profile.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/workspace/whats-in-my-fridge/app/views/profile/profile.html.erb:13: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^):
+  app/views/profile/profile.html.erb:13: syntax error, unexpected keyword_ensure, expecting keyword_end
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (39.5ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-12-02 02:44:07 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 31ms (Views: 29.5ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/users/sign_in" for 71.87.113.148 at 2018-12-02 02:44:09 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Redirected to https://whatsinmyfridge-sunkyong9768.c9users.io/fridges
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-12-02 02:44:09 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 29ms (Views: 27.8ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/countries" for 71.87.113.148 at 2018-12-02 02:44:10 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoryController#countries as HTML
+  Rendered category/countries.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 33ms (Views: 31.6ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/recipes?country=Africa" for 71.87.113.148 at 2018-12-02 02:44:11 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Parameters: {"country"=>"Africa"}
+  [1m[35mRecipe Load (0.3ms)[0m  SELECT "recipes".* FROM "recipes" WHERE "recipes"."country" = ?  [["country", "Africa"]]
+  Rendered recipes/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 52ms (Views: 50.9ms | ActiveRecord: 0.3ms | Solr: 0.0ms)
+
+
+Started GET "/profile" for 71.87.113.148 at 2018-12-02 02:44:13 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#profile as HTML
+  Rendered profile/profile.html.erb within layouts/application (14.3ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: Welcome @user <br>
+    2: 
+    3: <% @profiles.each do |profile| %>
+    4: <%=profile.username%><br>
+    5: <%=profile.usergender%><br>
+    6: <%=profile.country%><br>
+  app/views/profile/profile.html.erb:3:in `_app_views_profile_profile_html_erb__744272393568079401_33528580'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (40.3ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.8ms)[0m  [1mINSERT INTO "recipes" ("menu", "ingredient", "recipe", "country", "rate", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["menu", "Cheeseburger"], ["ingredient", "Bun, patty, slice cheese"], ["recipe", "1. Grill patty 2. Place slice chees on top of the patty 3. Grill bun 4. Assemble all"], ["country", "North America"], ["rate", 5], ["created_at", "2018-12-02 02:45:16.695397"], ["updated_at", "2018-12-02 02:45:16.695397"]]
+  [1m[32mSOLR Request (11.2ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[35m (0.3ms)[0m  rollback transaction
+
+
+Started GET "/" for 71.87.113.148 at 2018-12-02 02:45:46 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 344ms (Views: 331.0ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/users/sign_in" for 71.87.113.148 at 2018-12-02 02:45:48 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Redirected to https://whatsinmyfridge-sunkyong9768.c9users.io/fridges
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 14ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-12-02 02:45:48 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (3.2ms)
+Completed 200 OK in 44ms (Views: 26.4ms | ActiveRecord: 0.4ms | Solr: 0.0ms)
+
+
+Started GET "/profile" for 71.87.113.148 at 2018-12-02 02:45:49 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#profile as HTML
+  Rendered profile/profile.html.erb within layouts/application (5.8ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: Welcome @user <br>
+    2: 
+    3: <% @profiles.each do |profile| %>
+    4: <%=profile.username%><br>
+    5: <%=profile.usergender%><br>
+    6: <%=profile.country%><br>
+  app/views/profile/profile.html.erb:3:in `_app_views_profile_profile_html_erb___1028364629814653394_70318967705020'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (38.6ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-12-02 02:52:31 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.4ms)
+Completed 200 OK in 45ms (Views: 43.6ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/profile" for 71.87.113.148 at 2018-12-02 02:52:32 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#profile as HTML
+  Rendered profile/profile.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: Welcome @user <br>
+    2: 
+    3: <% @profiles.each do |profile| %>
+    4: <%=profile.username%><br>
+    5: <%=profile.usergender%><br>
+    6: <%=profile.country%><br>
+  app/views/profile/profile.html.erb:3:in `_app_views_profile_profile_html_erb___1028364629814653394_70318967705020'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (43.4ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-12-02 03:04:59 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 46ms (Views: 28.7ms | ActiveRecord: 1.0ms | Solr: 0.0ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-12-02 03:05:01 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 26ms (Views: 25.4ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/profile" for 71.87.113.148 at 2018-12-02 03:05:02 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#profile as HTML
+  [1m[36mProfile Load (0.3ms)[0m  [1mSELECT "profiles".* FROM "profiles"[0m
+  Rendered profile/profile.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 57ms (Views: 51.0ms | ActiveRecord: 0.5ms | Solr: 0.0ms)
+
+
+Started GET "/profile/write" for 71.87.113.148 at 2018-12-02 03:05:04 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#write as HTML
+  Rendered profile/write.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 26ms (Views: 25.4ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started POST "/profile/create" for 71.87.113.148 at 2018-12-02 03:05:12 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [POST] "/profile/create"):
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (56.7ms)
+
+
+Started POST "/profile/create" for 71.87.113.148 at 2018-12-02 03:06:29 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [POST] "/profile/create"):
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (48.6ms)
+
+
+Started POST "/profile/create" for 71.87.113.148 at 2018-12-02 03:13:24 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [POST] "/profile/create"):
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (47.2ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-12-02 03:14:23 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 39ms (Views: 31.0ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/users/sign_in" for 71.87.113.148 at 2018-12-02 03:14:25 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Redirected to https://whatsinmyfridge-sunkyong9768.c9users.io/fridges
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-12-02 03:14:25 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 40ms (Views: 25.3ms | ActiveRecord: 0.5ms | Solr: 0.0ms)
+
+
+Started GET "/profile" for 71.87.113.148 at 2018-12-02 03:14:26 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#profile as HTML
+  [1m[36mProfile Load (0.3ms)[0m  [1mSELECT "profiles".* FROM "profiles"[0m
+  Rendered profile/profile.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 33ms (Views: 29.1ms | ActiveRecord: 0.4ms | Solr: 0.0ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-12-02 03:14:27 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/profile" for 71.87.113.148 at 2018-12-02 03:14:28 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#profile as HTML
+  [1m[35mProfile Load (0.3ms)[0m  SELECT "profiles".* FROM "profiles"
+  Rendered profile/profile.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.3ms | Solr: 0.0ms)
+
+
+Started GET "/profile/write" for 71.87.113.148 at 2018-12-02 03:14:29 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#write as HTML
+  Rendered profile/write.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started POST "/profile/create" for 71.87.113.148 at 2018-12-02 03:14:37 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#create as HTML
+  Parameters: {"username"=>"sunkyeong", "usergender"=>"Female", "country"=>"Asia", "preference"=>"Spicy"}
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms)
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  actionpack (4.2.10) lib/action_controller/metal/request_forgery_protection.rb:181:in `handle_unverified_request'
+  actionpack (4.2.10) lib/action_controller/metal/request_forgery_protection.rb:209:in `handle_unverified_request'
+  devise (4.5.0) lib/devise/controllers/helpers.rb:255:in `handle_unverified_request'
+  actionpack (4.2.10) lib/action_controller/metal/request_forgery_protection.rb:204:in `verify_authenticity_token'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:432:in `block in make_lambda'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:164:in `block in halting'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:504:in `block in call'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:504:in `each'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:504:in `call'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.10) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.10) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.10) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.10) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.10) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.10) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.10) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.10) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.10) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.10) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.10) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.10) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.10) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.10) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.10) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.10) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  omniauth (1.8.1) lib/omniauth/strategy.rb:190:in `call!'
+  omniauth (1.8.1) lib/omniauth/strategy.rb:168:in `call'
+  omniauth (1.8.1) lib/omniauth/builder.rb:63:in `call'
+  warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+  warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+  warden (1.2.7) lib/warden/manager.rb:35:in `call'
+  rack (1.6.10) lib/rack/etag.rb:24:in `call'
+  rack (1.6.10) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.10) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.10) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.10) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.10) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.10) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.10) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (35.8ms)
+
+
+Started GET "/profile" for 71.87.113.148 at 2018-12-02 03:15:15 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#profile as HTML
+  [1m[36mProfile Load (0.6ms)[0m  [1mSELECT "profiles".* FROM "profiles"[0m
+  Rendered profile/profile.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 43ms (Views: 32.8ms | ActiveRecord: 0.8ms | Solr: 0.0ms)
+
+
+Started GET "/profile/write" for 71.87.113.148 at 2018-12-02 03:15:16 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#write as HTML
+  Rendered profile/write.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started POST "/profile/create" for 71.87.113.148 at 2018-12-02 03:15:22 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#create as HTML
+  Parameters: {"username"=>"Sunkyeong", "usergender"=>"Female", "country"=>"Asia", "preference"=>"Spicy"}
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.6ms)
+
+NoMethodError (undefined method `username=' for #<Profile id: nil, created_at: nil, updated_at: nil>):
+  app/controllers/profile_controller.rb:11:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (31.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (63.9ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-12-02 06:16:03 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 35ms (Views: 34.4ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/users/sign_in" for 71.87.113.148 at 2018-12-02 06:16:07 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Redirected to https://whatsinmyfridge-sunkyong9768.c9users.io/fridges
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 12ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-12-02 06:16:07 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 67ms (Views: 35.5ms | ActiveRecord: 0.7ms | Solr: 0.0ms)
+
+
+Started GET "/profile" for 71.87.113.148 at 2018-12-02 06:16:08 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#profile as HTML
+  [1m[36mProfile Load (0.3ms)[0m  [1mSELECT "profiles".* FROM "profiles"[0m
+  Rendered profile/profile.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 35ms (Views: 33.9ms | ActiveRecord: 0.3ms | Solr: 0.0ms)
+
+
+Started GET "/profile/write" for 71.87.113.148 at 2018-12-02 06:16:09 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#write as HTML
+  Rendered profile/write.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 30ms (Views: 29.2ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started POST "/profile/create" for 71.87.113.148 at 2018-12-02 06:16:15 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#create as HTML
+  Parameters: {"username"=>"Sunkyeong", "usergender"=>"Female", "country"=>"Asia", "preference"=>"Spicy"}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `username=' for #<Profile id: nil, created_at: nil, updated_at: nil>):
+  app/controllers/profile_controller.rb:11:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (47.0ms)
+
+
+Started GET "/profile/" for 71.87.113.148 at 2018-12-02 06:31:03 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#profile as HTML
+  [1m[35mProfile Load (0.6ms)[0m  SELECT "profiles".* FROM "profiles"
+  Rendered profile/profile.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 49ms (Views: 35.2ms | ActiveRecord: 3.6ms | Solr: 0.0ms)
+
+
+Started GET "/profile/write" for 71.87.113.148 at 2018-12-02 06:31:05 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#write as HTML
+  Rendered profile/write.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 27ms (Views: 26.5ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started POST "/profile/create" for 71.87.113.148 at 2018-12-02 06:31:09 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#create as HTML
+  Parameters: {"username"=>"Sunkyeong", "usergender"=>"Male", "country"=>"Africa", "preference"=>"Sweet"}
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.4ms)
+
+NoMethodError (undefined method `username=' for #<Profile id: nil, created_at: nil, updated_at: nil>):
+  app/controllers/profile_controller.rb:11:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (45.3ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/profile" for 71.87.113.148 at 2018-12-02 06:32:09 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProfileController#profile as HTML
+  [1m[35mProfile Load (0.2ms)[0m  SELECT "profiles".* FROM "profiles"
+  Rendered profile/profile.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 351ms (Views: 332.1ms | ActiveRecord: 0.4ms | Solr: 0.0ms)
+
+
+Started GET "/profile/write" for 71.87.113.148 at 2018-12-02 06:32:10 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#write as HTML
+  Rendered profile/write.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 26ms (Views: 25.1ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started POST "/profile/create" for 71.87.113.148 at 2018-12-02 06:32:17 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#create as HTML
+  Parameters: {"username"=>"Sunkyeong", "usergender"=>"Female", "country"=>"Asia", "preference"=>"Sweet"}
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.5ms)
+
+NoMethodError (undefined method `username=' for #<Profile id: nil, created_at: nil, updated_at: nil>):
+  app/controllers/profile_controller.rb:11:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (35.4ms)
+  [1m[36m (29.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (19.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateFridges (20181109065353)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+DEPRECATION WARNING: `#timestamps` was called without specifying an option for `null`. In Rails 5, this behavior will change to `null: false`. You should manually specify `null: true` to prevent the behavior of your existing migrations from changing. (called from block in change at /home/ubuntu/workspace/whats-in-my-fridge/db/migrate/20181109065353_create_fridges.rb:10)
+  [1m[35m (0.6ms)[0m  CREATE TABLE "fridges" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "menu" varchar, "ingredient" text, "recipe" text, "rating" varchar, "where" varchar, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20181109065353"]]
+  [1m[35m (25.3ms)[0m  commit transaction
+Migrating to CreateUsergoers (20181109102819)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "usergoers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "provider" varchar, "uid" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20181109102819"]]
+  [1m[35m (22.0ms)[0m  commit transaction
+Migrating to CreateRecipes (20181125165830)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "menu" text, "ingredient" text, "recipe" text, "country" varchar, "rate" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20181125165830"]]
+  [1m[35m (23.1ms)[0m  commit transaction
+Migrating to CreateIngredients (20181125180519)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "ingredient" text, "quantity" integer, "calories" integer, "health" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20181125180519"]]
+  [1m[35m (27.5ms)[0m  commit transaction
+Migrating to CreateProfiles (20181129005416)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "profiles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" text, "usergender" text, "country" text, "preference" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20181129005416"]]
+  [1m[35m (21.3ms)[0m  commit transaction
+Migrating to DeviseCreateUsers (20181201195857)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (14.4ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20181201195857"]]
+  [1m[36m (28.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "recipes" ("menu", "ingredient", "recipe", "country", "rate", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["menu", "Cheeseburger"], ["ingredient", "Bun, patty, slice cheese"], ["recipe", "1. Grill patty 2. Place slice chees on top of the patty 3. Grill bun 4. Assemble all"], ["country", "North America"], ["rate", 5], ["created_at", "2018-12-02 06:33:52.861554"], ["updated_at", "2018-12-02 06:33:52.861554"]]
+  [1m[32mSOLR Request (458.3ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[35m (13.9ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "recipes" ("menu", "ingredient", "recipe", "country", "rate", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["menu", "Pizza"], ["ingredient", "Dough, Mozzarella cheese, tomato sauce, meat"], ["recipe", "1. Shape dough in flat, circle shape 2. Apply tomato sauce on dough as wanted 3. Place mozzarella cheese on top 4. Place meat as wanted 5. Bake oven in 400F for 10 min."], ["country", "North America"], ["rate", 5], ["created_at", "2018-12-02 06:33:53.356214"], ["updated_at", "2018-12-02 06:33:53.356214"]]
+  [1m[32mSOLR Request (14.4ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[36m (11.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "recipes" ("menu", "ingredient", "recipe", "country", "rate", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["menu", "Tikka Masala"], ["ingredient", "chicken breast, Tikka Masala spice, garlic, ginger, whip cream, onion, tomatoe, yogurt, lemon juice"], ["recipe", "1. In a large bowl, combine yogurt, lemon juice, Tikka masala spice, ginger, and garlic. 2. Stir in chicken, cover, and refrigerate for 1 hour. 3. Preheat a grill for high heat. 4. Lightly oil the grill grate 5. Melt butter in a large heavy skillet over medium heat."], ["country", "Asia"], ["rate", 5], ["created_at", "2018-12-02 06:33:53.386061"], ["updated_at", "2018-12-02 06:33:53.386061"]]
+  [1m[32mSOLR Request (8.7ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[35m (13.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "recipes" ("menu", "ingredient", "recipe", "country", "rate", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["menu", "Piri-Piri Chicken"], ["ingredient", "butter, cilantro, garlic, piri-piri sauce, lemon juice, chicken breast, olive oil"], ["recipe", "1. Melt butter in small saucepan over medium-high heat. 2. Add cilantro and garlic 3. Add piri-piri sauce and simmer for 2 minutes. 4. Chop cilantro, garlic, lemon juice and piri-piri sauce and marinate sauce into chicken breast. 5. Grill until chicken becomes golden brown 6. Serve"], ["country", "Africa"], ["rate", 5], ["created_at", "2018-12-02 06:33:53.412738"], ["updated_at", "2018-12-02 06:33:53.412738"]]
+  [1m[32mSOLR Request (15.7ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[36m (12.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "recipes" ("menu", "ingredient", "recipe", "country", "rate", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["menu", "Pavolva"], ["ingredient", "egg white, sugar, vanilla essence, vinegar, cornflour, whipped cream, fruits"], ["recipe", "Pavlova: Preheat the oven to 120 degrees C. Line a baking tray with baking paper then draw an 18cm circle on the paper. 1. Beat the egg whites on medium speed until they are light and creamy with soft peaks. Switch to high speed continuing beating while adding the sugar one tablespoon at a time. Continue beating until the mixture is stiff and shiny. Ensure that the sugar is fully dissolved and that the mixture does not feel grainy. Beat in the vanilla. Remove the beaters and sprinkle the mixture with vinegar and cornflour, then gently fold in. 2. Spoon the pavolva into the centre of the circle drawn on the baking paper. Using the back of a spoon spread to the edges. Build up the edges slightly so that they are higher than the centre, which will make decorating your pavlova a lot easier. 3. Bake for 75 minutes in the preheated oven. Then turn off the oven, prop the door slightly open and leave the pavlova to cool completely in the oven.4. Decorating: In a clean stainless steel or glass bowl (chill the bowl in the fridge first for better whipping), beat the cream to soft peaks. Add the sugar and beat a little longer. Spoon the whipped cream on top of the pavlova and spread to the edges. 5. You can use almost any combination of fresh fruits to top your pavlova. For an especially stunning presentation, try fresh berries and sugared rose petals. Place the fresh berries in the centre of the pavlova on top of the whipped cream, then arrange the sugared rose petals around the edges. Dust with icing sugar and serve."], ["country", "Austrailia/Oceania"], ["rate", 5], ["created_at", "2018-12-02 06:33:53.445087"], ["updated_at", "2018-12-02 06:33:53.445087"]]
+  [1m[32mSOLR Request (8.2ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[35m (11.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "recipes" ("menu", "ingredient", "recipe", "country", "rate", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["menu", "Taco"], ["ingredient", "ground beef, taco seasoning, tomato sauce, lattuce, tomato, cheese"], ["recipe", "1. Cook the ground beef fully, drain grease, then add 1/2 cup tomato sauce and taco seasoning. 2. Allow to simmer for 5 minutes. 3. Add to tacos shells or use in any other recipes that call for taco meat."], ["country", "South America"], ["rate", 5], ["created_at", "2018-12-02 06:33:53.468474"], ["updated_at", "2018-12-02 06:33:53.468474"]]
+  [1m[32mSOLR Request (10.9ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[36m (17.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "recipes" ("menu", "ingredient", "recipe", "country", "rate", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["menu", "Fish and Chips"], ["ingredient", "fish, potatoe, egg, baking power, vegetable oil, flour"], ["recipe", "1. Heat vegetable oil into 360F. 2. Whisk flour, baking powder and cornstarch into large ball 3. Dust the fish with flour and then carefully dip into the batter 4. Place into heated oil and fry for 2 to 3 minutes 4. Serve with chips"], ["country", "Europe"], ["rate", 5], ["created_at", "2018-12-02 06:33:53.501036"], ["updated_at", "2018-12-02 06:33:53.501036"]]
+  [1m[32mSOLR Request (7.6ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[35m (13.2ms)[0m  commit transaction
+
+
+Started GET "/" for 71.87.113.148 at 2018-12-02 06:34:09 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 1048ms (Views: 1025.0ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/users/sign_in" for 71.87.113.148 at 2018-12-02 06:34:13 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (67.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered devise/shared/_links.html.erb (1.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (66.9ms)
+Completed 200 OK in 257ms (Views: 122.5ms | ActiveRecord: 76.1ms | Solr: 0.0ms)
+
+
+Started GET "/auth/twitter" for 71.87.113.148 at 2018-12-02 06:34:15 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter" for 71.87.113.148 at 2018-12-02 06:34:16 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter/callback?oauth_token=izPk6QAAAAAA4Y-MAAABZ22f7Ew&oauth_verifier=LEEgU0KLveN1DMrKE7Vqc2LO8FMM46xZ" for 71.87.113.148 at 2018-12-02 06:34:17 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"izPk6QAAAAAA4Y-MAAABZ22f7Ew", "oauth_verifier"=>"LEEgU0KLveN1DMrKE7Vqc2LO8FMM46xZ", "provider"=>"twitter"}
+  [1m[36m (29.5ms)[0m  [1mSELECT "usergoers"."id" FROM "usergoers" WHERE "usergoers"."provider" = ? AND "usergoers"."uid" = ?[0m  [["provider", "twitter"], ["uid", "960973551070273536"]]
+Redirected to https://whatsinmyfridge-sunkyong9768.c9users.io/fridges
+Completed 302 Found in 46ms (ActiveRecord: 40.5ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-12-02 06:34:18 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (6.1ms)
+Completed 200 OK in 68ms (Views: 49.8ms | ActiveRecord: 0.4ms | Solr: 0.0ms)
+
+
+Started GET "/countries" for 71.87.113.148 at 2018-12-02 06:34:21 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoryController#countries as HTML
+  Rendered category/countries.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 77ms (Views: 75.5ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/recipes?country=Asia" for 71.87.113.148 at 2018-12-02 06:34:22 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Parameters: {"country"=>"Asia"}
+  [1m[35mRecipe Load (15.9ms)[0m  SELECT "recipes".* FROM "recipes" WHERE "recipes"."country" = ?  [["country", "Asia"]]
+  Rendered recipes/index.html.erb within layouts/application (3473.1ms)
+Completed 200 OK in 4687ms (Views: 4317.7ms | ActiveRecord: 48.8ms | Solr: 0.0ms)
+
+
+Started GET "/profile" for 71.87.113.148 at 2018-12-02 06:34:31 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#profile as HTML
+  [1m[36mProfile Load (5.2ms)[0m  [1mSELECT "profiles".* FROM "profiles"[0m
+  Rendered profile/profile.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 49ms (Views: 38.4ms | ActiveRecord: 5.5ms | Solr: 0.0ms)
+
+
+Started GET "/profile/write" for 71.87.113.148 at 2018-12-02 06:34:32 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#write as HTML
+  Rendered profile/write.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started POST "/profile/create" for 71.87.113.148 at 2018-12-02 06:34:37 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#create as HTML
+  Parameters: {"username"=>"Sunkyeong", "usergender"=>"Female", "country"=>"Asia", "preference"=>"Sweet"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "profiles" ("username", "usergender", "country", "preference", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["username", "Sunkyeong"], ["usergender", "Female"], ["country", "Asia"], ["preference", "Sweet"], ["created_at", "2018-12-02 06:34:37.488208"], ["updated_at", "2018-12-02 06:34:37.488208"]]
+  [1m[35m (13.5ms)[0m  commit transaction
+Redirected to https://whatsinmyfridge-sunkyong9768.c9users.io/profile
+Completed 302 Found in 67ms (ActiveRecord: 14.6ms)
+
+
+Started GET "/profile" for 71.87.113.148 at 2018-12-02 06:34:37 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#profile as HTML
+  [1m[36mProfile Load (0.3ms)[0m  [1mSELECT "profiles".* FROM "profiles"[0m
+  Rendered profile/profile.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 26ms (Views: 24.6ms | ActiveRecord: 0.3ms | Solr: 0.0ms)
+
+
+Started GET "/profile" for 71.87.113.148 at 2018-12-02 06:35:24 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#profile as HTML
+  [1m[35mProfile Load (0.5ms)[0m  SELECT "profiles".* FROM "profiles"
+  Rendered profile/profile.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 40ms (Views: 30.1ms | ActiveRecord: 1.0ms | Solr: 0.0ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-12-02 06:35:26 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 47ms (Views: 34.1ms | ActiveRecord: 0.5ms | Solr: 0.0ms)
+
+
+Started GET "/countries" for 71.87.113.148 at 2018-12-02 06:35:30 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoryController#countries as HTML
+  Rendered category/countries.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 29ms (Views: 28.1ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/recipes?country=Asia" for 71.87.113.148 at 2018-12-02 06:35:31 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Parameters: {"country"=>"Asia"}
+  [1m[36mRecipe Load (0.3ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."country" = ?[0m  [["country", "Asia"]]
+  Rendered recipes/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 45ms (Views: 38.4ms | ActiveRecord: 0.7ms | Solr: 0.0ms)
+
+
+Started GET "/write" for 71.87.113.148 at 2018-12-02 06:35:34 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#write as HTML
+  Rendered main/write.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 32ms (Views: 31.2ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started POST "/create" for 71.87.113.148 at 2018-12-02 06:35:41 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#create as HTML
+  Parameters: {"menu"=>"Sushi", "ingredient"=>"raw fish, rice, vinegar, sugar, water", "recipe"=>"1. Cook rice and let it cool down 2. Cut raw fish into small pieces 3. Mix water, vinegar and sugar at a bowl and mix well with rice. 4. Make the rice shape into small pieces and place the fish pieces on top 5. Serve", "country"=>"Asia", "rate"=>"5"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "recipes" ("menu", "ingredient", "recipe", "country", "rate", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["menu", "Sushi"], ["ingredient", "raw fish, rice, vinegar, sugar, water"], ["recipe", "1. Cook rice and let it cool down 2. Cut raw fish into small pieces 3. Mix water, vinegar and sugar at a bowl and mix well with rice. 4. Make the rice shape into small pieces and place the fish pieces on top 5. Serve"], ["country", "Asia"], ["rate", 5], ["created_at", "2018-12-02 06:35:41.476869"], ["updated_at", "2018-12-02 06:35:41.476869"]]
+  [1m[32mSOLR Request (44.4ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[35m (14.9ms)[0m  commit transaction
+Redirected to https://whatsinmyfridge-sunkyong9768.c9users.io/main
+  [1m[32mSOLR Request (103.0ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+Completed 302 Found in 182ms (ActiveRecord: 15.4ms)
+
+
+Started GET "/main" for 71.87.113.148 at 2018-12-02 06:35:41 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#main as HTML
+Redirected to https://whatsinmyfridge-sunkyong9768.c9users.io/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-12-02 06:35:41 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 41ms (Views: 40.5ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/users/sign_in" for 71.87.113.148 at 2018-12-02 06:36:05 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 41ms (Views: 35.4ms | ActiveRecord: 0.4ms | Solr: 0.0ms)
+
+
+Started GET "/auth/twitter" for 71.87.113.148 at 2018-12-02 06:36:08 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter" for 71.87.113.148 at 2018-12-02 06:36:08 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter/callback?oauth_token=agHb6QAAAAAA4Y-MAAABZ22hokw&oauth_verifier=FiNzUAPPJp7VNK82on1idraEzqGWvhxh" for 71.87.113.148 at 2018-12-02 06:36:09 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"agHb6QAAAAAA4Y-MAAABZ22hokw", "oauth_verifier"=>"FiNzUAPPJp7VNK82on1idraEzqGWvhxh", "provider"=>"twitter"}
+  [1m[36m (0.2ms)[0m  [1mSELECT "usergoers"."id" FROM "usergoers" WHERE "usergoers"."provider" = ? AND "usergoers"."uid" = ?[0m  [["provider", "twitter"], ["uid", "960973551070273536"]]
+Redirected to https://whatsinmyfridge-sunkyong9768.c9users.io/fridges
+Completed 302 Found in 3ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-12-02 06:36:09 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 24ms (Views: 23.2ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/countries" for 71.87.113.148 at 2018-12-02 06:36:14 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoryController#countries as HTML
+  Rendered category/countries.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 26ms (Views: 25.3ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/recipes?country=Africa" for 71.87.113.148 at 2018-12-02 06:36:16 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Parameters: {"country"=>"Africa"}
+  [1m[35mRecipe Load (0.2ms)[0m  SELECT "recipes".* FROM "recipes" WHERE "recipes"."country" = ?  [["country", "Africa"]]
+  Rendered recipes/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 26ms (Views: 24.6ms | ActiveRecord: 0.2ms | Solr: 0.0ms)
+
+
+Started GET "/recipes?country=Asia" for 71.87.113.148 at 2018-12-02 06:36:26 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Parameters: {"country"=>"Asia"}
+  [1m[36mRecipe Load (0.4ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."country" = ?[0m  [["country", "Asia"]]
+  Rendered recipes/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 45ms (Views: 32.7ms | ActiveRecord: 1.2ms | Solr: 0.0ms)
+
+
+Started GET "/write" for 71.87.113.148 at 2018-12-02 06:36:34 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#write as HTML
+  Rendered main/write.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 46ms (Views: 45.5ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/recipes?country=Europe" for 71.87.113.148 at 2018-12-02 06:36:45 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Parameters: {"country"=>"Europe"}
+  [1m[35mRecipe Load (0.2ms)[0m  SELECT "recipes".* FROM "recipes" WHERE "recipes"."country" = ?  [["country", "Europe"]]
+  Rendered recipes/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.2ms | Solr: 0.0ms)
+
+
+Started GET "/write" for 71.87.113.148 at 2018-12-02 06:36:48 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#write as HTML
+  Rendered main/write.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 38ms (Views: 37.3ms | ActiveRecord: 0.0ms | Solr: 0.0ms)

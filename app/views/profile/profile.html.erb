@@ -1,6 +1,11 @@
 Welcome @user <br>
 
-
+<% @profiles.each do |profile| %>
+<%=profile.username%><br>
+<%=profile.usergender%><br>
+<%=profile.country%><br>
+<%=profile.preference%><br>
+<% end %>
 
 
 <a href='/profile/write'>Add my profile</a> <br>
