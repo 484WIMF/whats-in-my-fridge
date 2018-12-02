@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   get 'main/main'
 
   get 'profile/new'
@@ -16,7 +17,7 @@ Rails.application.routes.draw do
   get '/main' => 'main#main'
   get '/write' => 'main#write'
   post '/create' => 'main#create'
-  get '/profile' => 'profile#profile'
+
   #get '/misc' => 'misc#home'
   #get '/welcome' => 'home#welcome'
   #get '/signup' => 'home#signup'
@@ -25,7 +26,8 @@ Rails.application.routes.draw do
   
   #
   get '/index' => 'main#index'
-  #
+  get '/profile' => 'profile#profile'
+  post '/profile/create' => 'profile#create'
   get '/profile/write' => 'profile#write'
 
   
@@ -34,7 +36,7 @@ Rails.application.routes.draw do
   get 'auth/failure' => 'sessions#failure'
   get 'auth/twitter', :as => 'login'
 
-
+  get '/logout' => 'sessions#destroy'
   get '/login' => 'sessions#login'
   
   get 'main/search' => "main#search"
