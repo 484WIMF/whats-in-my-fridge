@@ -10,28 +10,16 @@ h2 {
     top: 30%;
     width: -90vw;
     position: absolute;
-    left: 35%;
+    left: 32%;
     z-index: 0;
     padding: 0;
     margin: 0;
     blockcolor: black;
     text-shadow: -1px 0 teal, 0 1px teal, 1px 0 teal, 0 -1px teal;
+    font-family: Arial;
 
 form {
     border: 3px solid #f1f1f1;
 }
 
-}
-
-input[type=email], input[type=password]{
-    width :100%;
-    padding: 8px 10px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    position: center;
-    z-index: 0;
-    padding: 0;
-    margin: 0;
 }
