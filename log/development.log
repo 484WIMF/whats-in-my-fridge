@@ -7938,3 +7938,182 @@ Processing by ProfileController#profile as HTML
   [1m[36mProfile Load (0.4ms)[0m  [1mSELECT "profiles".* FROM "profiles"[0m
   Rendered profile/profile.html.erb within layouts/application (2.6ms)
 Completed 200 OK in 38ms (Views: 34.8ms | ActiveRecord: 0.6ms | Solr: 0.0ms)
+
+
+Started GET "/" for 134.29.63.163 at 2018-12-07 18:58:25 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 340ms (Views: 326.6ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 134.29.63.163 at 2018-12-07 18:58:26 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_in" for 134.29.63.163 at 2018-12-07 18:58:27 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Redirected to https://hardwick-sunkyong9768.c9users.io/fridges
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 15ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/fridges" for 134.29.63.163 at 2018-12-07 18:58:27 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 63ms (Views: 41.8ms | ActiveRecord: 0.4ms | Solr: 0.0ms)
+
+
+Started GET "/countries" for 134.29.63.163 at 2018-12-07 18:58:37 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoryController#countries as HTML
+  Rendered category/countries.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 59ms (Views: 58.0ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/fridges" for 134.29.63.163 at 2018-12-07 18:58:39 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 44ms (Views: 43.4ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/profile" for 134.29.63.163 at 2018-12-07 18:58:40 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#profile as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mProfile Load (0.3ms)[0m  SELECT "profiles".* FROM "profiles"
+  Rendered profile/profile.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 82ms (Views: 63.4ms | ActiveRecord: 0.9ms | Solr: 0.0ms)
+
+
+Started GET "/" for 134.29.63.163 at 2018-12-07 18:59:07 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 320ms (Views: 306.2ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 134.29.63.163 at 2018-12-07 18:59:08 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_in" for 134.29.63.163 at 2018-12-07 18:59:09 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Redirected to https://hardwick-sunkyong9768.c9users.io/fridges
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 15ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/fridges" for 134.29.63.163 at 2018-12-07 18:59:09 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 45ms (Views: 24.4ms | ActiveRecord: 0.5ms | Solr: 0.0ms)
+
+
+Started GET "/countries" for 134.29.63.163 at 2018-12-07 18:59:15 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoryController#countries as HTML
+  Rendered category/countries.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 31ms (Views: 29.9ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/recipes?country=Africa" for 134.29.63.163 at 2018-12-07 18:59:16 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Parameters: {"country"=>"Africa"}
+  [1m[36mRecipe Load (0.6ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."country" = ?[0m  [["country", "Africa"]]
+  Rendered recipes/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 48ms (Views: 40.5ms | ActiveRecord: 1.2ms | Solr: 0.0ms)
+
+
+Started GET "/fridges" for 134.29.63.163 at 2018-12-07 18:59:17 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 28ms (Views: 26.7ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/profile" for 134.29.63.163 at 2018-12-07 18:59:18 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#profile as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mProfile Load (0.3ms)[0m  [1mSELECT "profiles".* FROM "profiles"[0m
+  Rendered profile/profile.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 68ms (Views: 56.6ms | ActiveRecord: 0.8ms | Solr: 0.0ms)
+
+
+Started GET "/profile/write" for 134.29.63.163 at 2018-12-07 18:59:20 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#write as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered profile/write.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 26ms (Views: 23.2ms | ActiveRecord: 0.2ms | Solr: 0.0ms)
+
+
+Started GET "/" for 134.29.63.163 at 2018-12-07 18:59:38 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 234ms (Views: 222.0ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 134.29.63.163 at 2018-12-07 18:59:39 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_in" for 134.29.63.163 at 2018-12-07 18:59:39 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Redirected to https://hardwick-sunkyong9768.c9users.io/fridges
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 16ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/fridges" for 134.29.63.163 at 2018-12-07 18:59:40 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 133ms (Views: 55.6ms | ActiveRecord: 0.5ms | Solr: 0.0ms)
+
+
+Started GET "/fridges" for 134.29.63.163 at 2018-12-07 18:59:42 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 25ms (Views: 24.7ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/profile" for 134.29.63.163 at 2018-12-07 18:59:45 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProfileController#profile as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mProfile Load (0.4ms)[0m  SELECT "profiles".* FROM "profiles"
+  Rendered profile/profile.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 67ms (Views: 54.3ms | ActiveRecord: 0.9ms | Solr: 0.0ms)
+
+
+Started GET "/countries" for 134.29.63.163 at 2018-12-07 18:59:47 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoryController#countries as HTML
+  Rendered category/countries.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 68ms (Views: 67.7ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/recipes?country=Austrailia%2FOceania" for 134.29.63.163 at 2018-12-07 18:59:48 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Parameters: {"country"=>"Austrailia/Oceania"}
+  [1m[36mRecipe Load (0.6ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."country" = ?[0m  [["country", "Austrailia/Oceania"]]
+  Rendered recipes/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 200ms (Views: 189.5ms | ActiveRecord: 2.1ms | Solr: 0.0ms)

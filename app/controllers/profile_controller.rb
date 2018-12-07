@@ -25,4 +25,8 @@ class ProfileController < ApplicationController
     redirect_to '/profile'
   end
   
+  def edit
+    @profile = Profile.find params[:id]
+  end
+
 end
