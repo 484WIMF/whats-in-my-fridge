@@ -33,13 +33,17 @@ ActiveRecord::Schema.define(version: 20181201195857) do
   end
 
   create_table "profiles", force: :cascade do |t|
+    t.integer  "user_id"
     t.text     "username"
     t.text     "usergender"
     t.text     "country"
     t.text     "preference"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.text     "useringredient"
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
   end
+
+  add_index "profiles", ["user_id"], name: "index_profiles_on_user_id"
 
   create_table "recipes", force: :cascade do |t|
     t.text     "menu"

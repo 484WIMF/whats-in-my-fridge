@@ -1,5 +1,12 @@
 class ProfileController < ApplicationController
+  before_action :authenticate_user!
+  
+  def index
+    @user = current_user.email
+  end
+  
   def profile
+
     @profiles = Profile.all
   end
   
@@ -12,6 +19,7 @@ class ProfileController < ApplicationController
     profile.usergender = params[:usergender]
     profile.country = params[:country]
     profile.preference = params[:preference]
+    profile.useringredient = params[:useringredient]
     profile.save
     
     redirect_to '/profile'
