@@ -85,3 +85,62 @@ div.url3 {
 p.border{
     border-style: double;
 }
+
+.button {
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      font-size: 16px;
+      margin: 4px 2px;
+      opacity: 0.6;
+      transition: 0.3s;
+      display: inline-block;
+      text-decoration: none;
+      cursor: pointer;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+button1 {
+    background-color: #f4511e;
+}
+
+button2 {
+    background-color: #99e6e6;
+}
+
+button3 {
+    background-color: #79ff4d;
+}
+
+button4 {
+    background-color: #ff4da6;
+}
+
+button5 {
+    background-color: #ccff33;
+}

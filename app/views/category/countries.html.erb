@@ -1,3 +1,31 @@
+<html class='background'>
+
+<button class='button span:after button1'>
+<%= link_to "Africa", recipes_path(:country=>"Africa") %><br>
+</button>
+
+<button class='button span:after span button2'>
+<%= link_to "Asia", recipes_path(:country=>"Asia") %><br>
+</button>
+
+<button class='button span:after span button3'>
+<%= link_to "Austrailia/Oceania", recipes_path(:country=>"Austrailia/Oceania") %><br>
+</button>
+
+<button class='button span:after button4'>
+<%= link_to "North America", recipes_path(:country=>"North America") %><br>
+</button>
+
+<button class='button span:after button5'>
+<%= link_to "South America", recipes_path(:country=>"South America") %><br>
+</button>
+
+<button class='button span:after button6'>
+<%= link_to "Europe", recipes_path(:country=>"Europe") %><br>
+</button>
+
+
+</html>
 <!--
 <a href='/main'>Africa</a><br>
 <a href='/main'>Asia</a><br>
@@ -22,9 +50,3 @@
 %= link_to '/main', recipes_path(:country=>"Europe") %><br>
 -->
 
-<%= link_to "Africa", recipes_path(:country=>"Africa") %><br>
-<%= link_to "Asia", recipes_path(:country=>"Asia") %><br>
-<%= link_to "Austrailia/Oceania", recipes_path(:country=>"Austrailia/Oceania") %><br>
-<%= link_to "North America", recipes_path(:country=>"North America") %><br>
-<%= link_to "South America", recipes_path(:country=>"South America") %><br>
-<%= link_to "Europe", recipes_path(:country=>"Europe") %><br>
