@@ -5542,3 +5542,689 @@ Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.
 Processing by ProfileController#write as HTML
   Rendered profile/write.html.erb within layouts/application (0.7ms)
 Completed 200 OK in 28ms (Views: 26.7ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-12-07 10:17:28 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 523ms (Views: 505.1ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/category.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 71.87.113.148 at 2018-12-07 10:17:28 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/fridge.self-d66547b7a48c62c36559003da83a8ded9b2c989e127d60c8ee2ff24941e05a7f.css?body=1" for 71.87.113.148 at 2018-12-07 10:17:28 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 71.87.113.148 at 2018-12-07 10:17:28 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-bf76aa429ff1d0ca05c43922d8e0196229f045cdff5429848a44010bd5000ae7.css?body=1" for 71.87.113.148 at 2018-12-07 10:17:28 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 71.87.113.148 at 2018-12-07 10:17:28 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 71.87.113.148 at 2018-12-07 10:17:28 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 71.87.113.148 at 2018-12-07 10:17:28 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 71.87.113.148 at 2018-12-07 10:17:28 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/recipe.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 71.87.113.148 at 2018-12-07 10:17:28 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 71.87.113.148 at 2018-12-07 10:17:28 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/fridge.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 71.87.113.148 at 2018-12-07 10:17:28 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 71.87.113.148 at 2018-12-07 10:17:28 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/category.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 71.87.113.148 at 2018-12-07 10:17:29 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 71.87.113.148 at 2018-12-07 10:17:29 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/recipe.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 71.87.113.148 at 2018-12-07 10:17:29 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 71.87.113.148 at 2018-12-07 10:17:29 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 71.87.113.148 at 2018-12-07 10:17:29 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 71.87.113.148 at 2018-12-07 10:17:29 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_in" for 71.87.113.148 at 2018-12-07 10:17:30 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (118.9ms)
+Completed 200 OK in 169ms (Views: 155.0ms | ActiveRecord: 0.7ms | Solr: 0.0ms)
+
+
+Started GET "/auth/twitter" for 71.87.113.148 at 2018-12-07 10:17:32 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+OAuth::Unauthorized (403 Forbidden):
+  oauth (0.5.4) lib/oauth/consumer.rb:236:in `token_request'
+  oauth (0.5.4) lib/oauth/consumer.rb:155:in `get_request_token'
+  omniauth-oauth (1.1.0) lib/omniauth/strategies/oauth.rb:28:in `request_phase'
+  omniauth-twitter (1.4.0) lib/omniauth/strategies/twitter.rb:61:in `request_phase'
+  omniauth (1.8.1) lib/omniauth/strategy.rb:224:in `request_call'
+  omniauth (1.8.1) lib/omniauth/strategy.rb:187:in `call!'
+  omniauth (1.8.1) lib/omniauth/strategy.rb:168:in `call'
+  omniauth (1.8.1) lib/omniauth/builder.rb:63:in `call'
+  warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+  warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+  warden (1.2.7) lib/warden/manager.rb:35:in `call'
+  rack (1.6.10) lib/rack/etag.rb:24:in `call'
+  rack (1.6.10) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.10) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.10) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.10) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.10) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.10) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.10) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.10) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (43.5ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-12-07 10:19:14 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/users/sign_in" for 71.87.113.148 at 2018-12-07 10:19:15 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 29ms (Views: 27.3ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/auth/twitter" for 71.87.113.148 at 2018-12-07 10:19:16 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter" for 71.87.113.148 at 2018-12-07 10:19:17 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter/callback?oauth_token=iKYf_AAAAAAA4Y-MAAABZ4gtuZU&oauth_verifier=epauIb51KOOGUxjNxnjpW0uqTSsZ0WMB" for 71.87.113.148 at 2018-12-07 10:19:18 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"iKYf_AAAAAAA4Y-MAAABZ4gtuZU", "oauth_verifier"=>"epauIb51KOOGUxjNxnjpW0uqTSsZ0WMB", "provider"=>"twitter"}
+  [1m[35m (0.3ms)[0m  SELECT "usergoers"."id" FROM "usergoers" WHERE "usergoers"."provider" = ? AND "usergoers"."uid" = ?  [["provider", "twitter"], ["uid", "960973551070273536"]]
+Redirected to https://hardwick-sunkyong9768.c9users.io/fridges
+Completed 302 Found in 4ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-12-07 10:19:18 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.haml within layouts/application (3.2ms)
+Completed 200 OK in 52ms (Views: 26.6ms | ActiveRecord: 0.4ms | Solr: 0.0ms)
+
+
+Started GET "/countries" for 71.87.113.148 at 2018-12-07 10:19:20 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoryController#countries as HTML
+  Rendered category/countries.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 28ms (Views: 27.7ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/recipes?country=Africa" for 71.87.113.148 at 2018-12-07 10:19:21 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Parameters: {"country"=>"Africa"}
+  [1m[36mRecipe Load (0.4ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."country" = ?[0m  [["country", "Africa"]]
+  Rendered recipes/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 43ms (Views: 34.9ms | ActiveRecord: 0.9ms | Solr: 0.0ms)
+
+
+Started GET "/write" for 71.87.113.148 at 2018-12-07 10:19:24 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#write as HTML
+  Rendered main/write.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 62ms (Views: 61.5ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started POST "/create" for 71.87.113.148 at 2018-12-07 10:21:52 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#create as HTML
+  Parameters: {"menu"=>"Stir Fry", "ingredient"=>"chicken breast, rice, soy sauce, vegetable, oil", "recipe"=>"1. Cut chicken breast and vegetables into small pieces. 2. Heat the pan in medium heat, stir fry with chicken breast and vegetables. 3. Add rice into the pan and stir fry with soy sauce 4. Once chicken is done cooking, let it cool down and serve", "country"=>"Asia", "rate"=>"4"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "recipes" ("menu", "ingredient", "recipe", "country", "rate", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["menu", "Stir Fry"], ["ingredient", "chicken breast, rice, soy sauce, vegetable, oil"], ["recipe", "1. Cut chicken breast and vegetables into small pieces. 2. Heat the pan in medium heat, stir fry with chicken breast and vegetables. 3. Add rice into the pan and stir fry with soy sauce 4. Once chicken is done cooking, let it cool down and serve"], ["country", "Asia"], ["rate", 4], ["created_at", "2018-12-07 10:21:52.820213"], ["updated_at", "2018-12-07 10:21:52.820213"]]
+  [1m[32mSOLR Request (687.5ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[35m (13.7ms)[0m  commit transaction
+Redirected to https://hardwick-sunkyong9768.c9users.io/countries
+  [1m[32mSOLR Request (202.9ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+Completed 302 Found in 925ms (ActiveRecord: 14.4ms)
+
+
+Started GET "/countries" for 71.87.113.148 at 2018-12-07 10:21:53 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoryController#countries as HTML
+  Rendered category/countries.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 24ms (Views: 23.6ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/recipes?country=Asia" for 71.87.113.148 at 2018-12-07 10:21:57 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Parameters: {"country"=>"Asia"}
+  [1m[36mRecipe Load (0.3ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."country" = ?[0m  [["country", "Asia"]]
+  Rendered recipes/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 28ms (Views: 27.3ms | ActiveRecord: 0.3ms | Solr: 0.0ms)
+
+
+Started GET "/recipes?country=Austrailia%2FOceania" for 71.87.113.148 at 2018-12-07 10:23:48 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Parameters: {"country"=>"Austrailia/Oceania"}
+  [1m[35mRecipe Load (0.3ms)[0m  SELECT "recipes".* FROM "recipes" WHERE "recipes"."country" = ?  [["country", "Austrailia/Oceania"]]
+  Rendered recipes/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 30ms (Views: 28.2ms | ActiveRecord: 0.3ms | Solr: 0.0ms)
+
+
+Started GET "/recipes/search?utf8=%E2%9C%93&query=garlic&commit=Search" for 71.87.113.148 at 2018-12-07 10:23:54 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#search as HTML
+  Parameters: {"utf8"=>"✓", "query"=>"garlic", "commit"=>"Search"}
+  [1m[32mSOLR Request (137.6ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:Recipe"][0m, q: [1m[1m"garlic"[0m, fl: [1m[1m"* score"[0m, qf: [1m[1m"ingredient_text"[0m, defType: [1m[1m"edismax"[0m, start: [1m[1m0[0m, rows: [1m[1m30[0m} ]
+  [1m[36mRecipe Load (0.5ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" IN (3, 4)[0m
+  Rendered recipes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 186ms (Views: 38.8ms | ActiveRecord: 0.5ms | Solr: 137.6ms)
+
+
+Started GET "/recipes?country=Austrailia%2FOceania" for 71.87.113.148 at 2018-12-07 10:24:24 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Parameters: {"country"=>"Austrailia/Oceania"}
+  [1m[35mRecipe Load (0.3ms)[0m  SELECT "recipes".* FROM "recipes" WHERE "recipes"."country" = ?  [["country", "Austrailia/Oceania"]]
+  Rendered recipes/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 27ms (Views: 25.7ms | ActiveRecord: 0.3ms | Solr: 0.0ms)
+
+
+Started GET "/countries" for 71.87.113.148 at 2018-12-07 10:24:25 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoryController#countries as HTML
+  Rendered category/countries.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 25ms (Views: 24.1ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/recipes?country=Africa" for 71.87.113.148 at 2018-12-07 10:24:27 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Parameters: {"country"=>"Africa"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."country" = ?[0m  [["country", "Africa"]]
+  Rendered recipes/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 27ms (Views: 25.9ms | ActiveRecord: 0.2ms | Solr: 0.0ms)
+
+
+Started GET "/recipes?country=Asia" for 71.87.113.148 at 2018-12-07 10:24:34 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Parameters: {"country"=>"Asia"}
+  [1m[35mRecipe Load (0.2ms)[0m  SELECT "recipes".* FROM "recipes" WHERE "recipes"."country" = ?  [["country", "Asia"]]
+  Rendered recipes/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 37ms (Views: 35.9ms | ActiveRecord: 0.2ms | Solr: 0.0ms)
+
+
+Started GET "/write" for 71.87.113.148 at 2018-12-07 10:24:37 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#write as HTML
+  Rendered main/write.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-12-07 10:24:46 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-12-07 10:25:20 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 27ms (Views: 26.7ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-12-07 10:25:21 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-12-07 10:26:50 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 56ms (Views: 55.2ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/fridge.self-b2419c6f6e3d0fecca046909b310d36e12644209b5ecb69ff40aeadbbaf62222.css?body=1" for 71.87.113.148 at 2018-12-07 10:26:50 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-12-07 10:26:50 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-12-07 10:27:55 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 70ms (Views: 69.4ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-12-07 10:27:55 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-12-07 10:27:56 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 56ms (Views: 53.6ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-12-07 10:27:56 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-12-07 10:28:41 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 28ms (Views: 27.5ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-12-07 10:28:41 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-12-07 10:29:03 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-12-07 10:29:03 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-12-07 10:29:05 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 58ms (Views: 57.6ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-12-07 10:29:05 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-12-07 10:29:35 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 385ms (Views: 371.9ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-12-07 10:29:36 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-12-07 10:30:24 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 373ms (Views: 359.7ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/fridge.self-86c7602bb4e53590a31a26b5a2ec64435679162a36ab5c26884550e67aace639.css?body=1" for 71.87.113.148 at 2018-12-07 10:30:24 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-12-07 10:30:24 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-12-07 10:30:50 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 47ms (Views: 46.1ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/fridge.self-775a9bdc01fa93aa2c360eca707d03d972c1e233525780fc13776ad75ab34b85.css?body=1" for 71.87.113.148 at 2018-12-07 10:30:50 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-12-07 10:30:50 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_in" for 71.87.113.148 at 2018-12-07 10:30:57 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (34.3ms)
+Completed 200 OK in 189ms (Views: 178.5ms | ActiveRecord: 0.5ms | Solr: 0.0ms)
+
+
+Started GET "/users/sign_in" for 71.87.113.148 at 2018-12-07 10:32:23 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 29ms (Views: 27.2ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-12-07 10:32:28 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 24ms (Views: 23.7ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-12-07 10:32:28 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_in" for 71.87.113.148 at 2018-12-07 10:32:29 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 29ms (Views: 27.8ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/users/sign_in" for 71.87.113.148 at 2018-12-07 10:32:38 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 30ms (Views: 28.5ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/users/sign_up" for 71.87.113.148 at 2018-12-07 10:32:40 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 36ms (Views: 35.0ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/users/password/new" for 71.87.113.148 at 2018-12-07 10:32:44 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::PasswordsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.5ms)
+  Rendered devise/passwords/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 46ms (Views: 45.0ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/aboutus" for 71.87.113.148 at 2018-12-07 10:32:53 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#aboutus as HTML
+  Rendered home/aboutus.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 27ms (Views: 26.7ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-12-07 10:33:10 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 52ms (Views: 51.0ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/fridge.self-21696105b69fc8f651cabac6dfbff9208c4d25a8968513e94d049267086e2342.css?body=1" for 71.87.113.148 at 2018-12-07 10:33:11 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-12-07 10:33:11 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_in" for 71.87.113.148 at 2018-12-07 10:33:12 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/" for 71.87.113.148 at 2018-12-07 10:33:22 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 142ms (Views: 140.6ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/fridge.self-9e036a156403274b0f28cbf7f17be745b0e6cf723dde15d62e25de84f48e57e9.css?body=1" for 71.87.113.148 at 2018-12-07 10:33:22 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-12-07 10:33:22 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_in" for 71.87.113.148 at 2018-12-07 10:33:23 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 47ms (Views: 45.3ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/users/sign_in" for 71.87.113.148 at 2018-12-07 10:33:30 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 74ms (Views: 72.5ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/fridge.self-26343fd736f409681ad4e78e8b56c81e8adfd4607cd735c57880fa43731a56cb.css?body=1" for 71.87.113.148 at 2018-12-07 10:33:30 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-12-07 10:33:33 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 25ms (Views: 24.6ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-12-07 10:33:34 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_in" for 71.87.113.148 at 2018-12-07 10:33:35 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 34ms (Views: 32.2ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/users/sign_up" for 71.87.113.148 at 2018-12-07 10:33:45 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 30ms (Views: 28.8ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/users/password/new" for 71.87.113.148 at 2018-12-07 10:33:51 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::PasswordsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/passwords/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 38ms (Views: 37.5ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/aboutus" for 71.87.113.148 at 2018-12-07 10:33:55 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#aboutus as HTML
+  Rendered home/aboutus.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 27ms (Views: 26.3ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/aboutus" for 71.87.113.148 at 2018-12-07 10:34:18 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#aboutus as HTML
+  Rendered home/aboutus.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 55ms (Views: 53.9ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/fridge.self-be5daf1b2005c606ad803e8c60b40b88289c4bf404b4f31ddb1085162d53f14f.css?body=1" for 71.87.113.148 at 2018-12-07 10:34:18 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.87.113.148 at 2018-12-07 10:34:23 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#home as HTML
+  Rendered fridges/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 30ms (Views: 29.3ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/Frontbackgroud.jpg" for 71.87.113.148 at 2018-12-07 10:34:23 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/aboutus" for 71.87.113.148 at 2018-12-07 10:34:25 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#aboutus as HTML
+  Rendered home/aboutus.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 30ms (Views: 29.7ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/contactus" for 71.87.113.148 at 2018-12-07 10:34:28 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#contactus as HTML
+  Rendered home/contactus.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 27ms (Views: 26.5ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/users/sign_in" for 71.87.113.148 at 2018-12-07 10:34:32 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 40ms (Views: 38.9ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/users/sign_in" for 71.87.113.148 at 2018-12-07 10:34:35 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 31ms (Views: 29.2ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/auth/twitter" for 71.87.113.148 at 2018-12-07 10:34:36 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter" for 71.87.113.148 at 2018-12-07 10:34:37 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/twitter/callback?oauth_token=4KhLbgAAAAAA4Y-MAAABZ4g7xEg&oauth_verifier=g7IhTQJcvZKvRciDSPqnIzV8DNDnHbvm" for 71.87.113.148 at 2018-12-07 10:34:38 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"4KhLbgAAAAAA4Y-MAAABZ4g7xEg", "oauth_verifier"=>"g7IhTQJcvZKvRciDSPqnIzV8DNDnHbvm", "provider"=>"twitter"}
+  [1m[35m (0.3ms)[0m  SELECT "usergoers"."id" FROM "usergoers" WHERE "usergoers"."provider" = ? AND "usergoers"."uid" = ?  [["provider", "twitter"], ["uid", "960973551070273536"]]
+Redirected to https://hardwick-sunkyong9768.c9users.io/fridges
+Completed 302 Found in 4ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/fridges" for 71.87.113.148 at 2018-12-07 10:34:38 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FridgesController#index as HTML
+  Rendered fridges/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 37ms (Views: 24.1ms | ActiveRecord: 0.4ms | Solr: 0.0ms)
+
+
+Started GET "/countries" for 71.87.113.148 at 2018-12-07 10:34:43 +0000
+Cannot render console from 71.87.113.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoryController#countries as HTML
+  Rendered category/countries.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 34ms (Views: 32.8ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
