@@ -1,3 +1,25 @@
 // Place all the styles related to the category controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.background4 {
+    background-image: url(spaghetti-ingredients-2378728_960_720.jpg);
+    height: 800px;
+    margin: 0px;
+    overflow-x: hidden;
+    //position: relative;
+   // width: 900px;
+    
+    background-color: #ce6839;
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: cover;
+}
+
+
+h2 {
+  text-align: center;
+  span {
+    margin-right: 1.5em;
+  }
+}
