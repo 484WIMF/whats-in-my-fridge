@@ -1,7 +1,7 @@
 what's in my fridge
 
 1. Login to your cloud9 account.
-2. In the workspace area, which you can see on the left side of the screen, click the big + sign to create a new workspace.
+2. In the workspace area, where you can see on the left side of the screen, click the big + sign to create a new workspace.
 3. For the workspace name put "whatsinmyfridge".
 4. Leave the description blank.
 5. Do not choose a team. (In the dropdown, choose "don't set a team for this workspace.")
